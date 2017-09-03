@@ -1,0 +1,7 @@
+= A website that doesn't exit
+:page-layout: redirect
+:page-sitemap: false
+:page-permalink: /redirect-page/
+:page-redirect_to:  "http://book.feelpp.org/info/"
+---
+This is just a page to demonstrate the `redirect`-layout, programmend by link:http://codingtips.kanishkkunal.in/about/[Kanishk].

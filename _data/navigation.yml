@@ -1,0 +1,67 @@
+- title: Home
+  icon: home
+  url: "/"
+  side: left
+
+- title: Getting Started
+  icon: install
+  url: "/getting-started/"
+  side: left
+
+# - title: "Examples"
+#   url: "/examples/"
+#   side: left
+#   dropdown:
+#   - title: "Generic"
+#     url: "/examples/generic/"
+
+# - title: "Toolboxes"
+#   url: "/toolbox/"
+#   side: left
+#   dropdown:
+#   - title: "CFD"
+#     url: "/toolbox/cfd/"
+#   - title: "CSM"
+#     url: "/toolbox/csm/"
+#   - title: "Heat"
+#     url: "/toolbox/heat/"
+
+# - title: Portfolio
+#   url: /project/
+#   side: left
+#   dropdown:
+#   - special: projects
+
+# - title: Documentation
+#   url: "/documentation/"
+#   side: left
+#   dropdown:
+#   - title: "User Manual"
+#     url: "/user-manual/"
+#   - title: "Changelog"
+#     url: "/changelog/"
+#   - title: "Roadmap"
+#     url: "/roadmap/"
+
+- title: Blog
+  icon: open-book
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+- title: "Search"
+  icon: magnifying-glass
+  url: "/search/"
+  side: right
+
+- title: "Info"
+  icon: v-card
+  url: "/info/"
+  side: right
+
+- title: "Contact"
+  icon: mail
+  url: "/contact/"
+  side: right

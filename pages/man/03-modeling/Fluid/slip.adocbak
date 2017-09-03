@@ -1,0 +1,23 @@
+= Slip boundary conditions
+Christophe Prud'homme
+v0, 2017/04/30
+:page-permalink: /slip
+:page-root: /
+:page-layout: default
+:docinfo: shared
+include::includes/header.adoc[]
+stem: latexmath
+
+We consider the Stokes equation with parts of the boundary where we impose the normal component of the velocity. Doing this means that we also have to control the tangential components of the stress to complete the system.
+It reads
+
+[stem]
+++++
+\begin{array}{rl}
+\mathbf{n} \cdot \mathbf{n} &= g\\
+\mathbf{n} \cdot \left[ (-p\mathbf{I} + 2 \mu \mathbf{D}(\mathbf{u})) \ \mathbf{\tau}_i \right &= f_i,\quad i=1,\ldots, d-1
+\end{array}
+++++
+where stem:[d] is the geometrical dimension, stem:[\mathbf{n}] the unit ouward normal to the boundary and stem:[(\mathbf{\tau}_i)_{i=1,...,d-1}] the tangent vectors to the boundary
+
+

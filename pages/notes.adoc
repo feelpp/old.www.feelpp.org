@@ -1,0 +1,17 @@
+// -*- mode: adoc -*-
+= Notes
+:page-layout!:
+:page-permalink: /notes/
+:page-root: /
+:title: Notes 
+:description: 
+:imagesdir: images/
+ifdef::env-site[]
+:imagesdir:
+endif::[]
+include::includes/header.adoc[]
+:sources: ../../codes/
+:sourcedir: ../../../codes/
+
+
+include::man/03-modeling/Fluid/slip.adoc[]

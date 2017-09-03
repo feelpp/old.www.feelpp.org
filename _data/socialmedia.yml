@@ -1,0 +1,30 @@
+- name: LinkedIn
+  url: http://linkedin.com/company/cemosis
+  class: icon-linkedin
+  title: "Feel++ is the Flagship Software of Cemosis and Cemosis is on LinkedIn"
+
+
+- name: GitHub
+  url: http://github.com/feelpp/feelpp
+  class: icon-github
+  title: "Feel++ is on GitHub"
+
+- name: YouTube
+  url: http://youtube.feelpp.org
+  class: icon-youtube
+  title: "Watch Feel++ videos on YouTube"
+
+- name: Google+
+  url: https://plus.feelpp.org
+  class: icon-google-plus
+  title: "Add Feel++ to your circles on Google Plus!"
+
+- name: Facebook
+  url: http://facebook.feelpp.org
+  class: icon-facebook
+  title: "Let's be friends with Feel++ on Facebook!"
+
+- name: Twitter
+  url: http://twitter.feelpp.org
+  class: icon-twitter
+  title: "Follow Feel++ on Twitter"

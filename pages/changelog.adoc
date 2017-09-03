@@ -1,0 +1,11 @@
+= Change is good!
+:page-layout: page
+:page-meta_title: "Feel++ Changelog"
+:page-subheadline: "Feel++ Changelog"
+:page-teaser: History and changelog of Feeling Responsive Theme
+:page-header: { image_fullwidth: "header_unsplash_9.jpg" }
+:page-permalink: /changelog/
+
+== Releases
+
+link:https://github.com/feelpp/feelpp/releases[Feel++ Releases on GitHub]

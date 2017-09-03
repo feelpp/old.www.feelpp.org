@@ -1,0 +1,13 @@
+= User Manual
+:page-liquid:
+:page-show_meta: false
+:page-layout: page-fullwidth
+:page-sidebar: left
+:page-permalink: /user-manual2/
+:page-header: no
+:page-image: {title: header_homepage_13.jpg}
+:page-teaser: "This guide helps you through the installation, usage and learning about Feel++"
+:page-subheadline: "A Guide Through Feel++"
+include::../docs/includes/header.adoc[]
+
+include::../docs/man/README.adoc[]

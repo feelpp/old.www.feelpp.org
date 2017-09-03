@@ -1,0 +1,31 @@
+---
+permalink: /info/
+layout: page
+title: "About"
+subheadline: "Home of the Team behind Feel++."
+teaser: "Professors, Researchers, Engineers, PostDocs, Phds, Master Students..."
+header:
+  image_fullwidth: header.jpg
+---
+:feelpp: Feel++
+
+...and learn more at the same time. You can message me at the link:{{ site.baseurl }}/contact/[contact page].
+
+== Team
+
+=== Christophe Prud'homme
+
+//![picture of me]({{ site.urlimg }}me.jpg){: .center .hide-for-large-up width="250"}
+
+
+=== Vincent Chabannes
+
+=== Others...
+
+== The Site
+
+
+*Big thanks to [Moritz&nbsp;»mo.«&nbsp;Sauer](http://sauer.io) aka [Phlow](http://phlow.de/) for his [**Feeling&nbsp;Responsive**](http://phlow.github.io/feeling-responsive/) theme.*
+
+
+link:{{ site.baseurl }}/contact/[**+{feelpp}**]

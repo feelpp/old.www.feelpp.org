@@ -1,0 +1,28 @@
+<aside>
+<div  class="small-3 columns sidebar-container" style="    margin:0;
+    padding:0;
+    float:left;
+    min-height:100vh; /* js/sidebar */
+    width: 19vw;
+    min-width:200px;
+    background-color:#f8f8f7;
+    height: 100%;
+    z-index: 99;"
+>
+  <div class="sidebar" style="position: fixed;padding: 20px;
+    width: inherit;
+    background-color:inherit;
+    overflow-y: auto;
+    height:100%;"
+>
+    {% if page.title == 'News' %}
+    {% include news_contents.html %}
+    {% else %}
+    <div id="toc" class="toc3" > <!--class="panel">-->
+      <div id="toctitle">Table of Contents</div>
+      {{ page.document | tocify_asciidoc:2 }}
+    </div>
+    {% endif %}
+  </div>
+</div>
+</aside>

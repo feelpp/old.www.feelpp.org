@@ -1,0 +1,9 @@
+= Search
+:page-permalink: /search/
+:page-layout: page
+:page-sitemap: false
+:page-liquid:
+
+++++
+{% include _google_search.html %}
+++++

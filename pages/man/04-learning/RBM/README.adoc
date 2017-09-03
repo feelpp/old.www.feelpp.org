@@ -1,0 +1,101 @@
+= Reduced Basis Methods
+:toc: left
+:doctype: book
+include::../../../includes/header.adoc[]
+
+
+== Introduction
+
+This section assumes two things:
+
+ * you have downloaded the CRBDB database
+ * you are running the applications from a standard installation of {feelpp} such as in the `feelpp/feelpp-crb` {docker} container.
+
+ hello {feelppdb} .
+
+To download the CRBDB database, do as follows
+[source,sh]
+----
+cd {feelppdb}
+git clone https://github.com/feelpp/crbdb.git
+----
+it creates the `crbdb` sub-directory in the {feelppdb} directory.
+
+To start the `feelp/feelpp-crb` container
+----
+docker run --rm -it -v $HOME/feel:/feel feelpp/feelpp-crb
+----
+
+== Applications
+
+
+
+== C++ online interface
+
+----
+feelpp_crb_onlinerun --plugin.name <name of the application>
+----
+
+For example consider  the Heat3D reduced basis application,
+----
+feelpp_crb_onlinerun --plugin.name heat3d
+----
+It runs by default the lastest modified reduced basis  online code on a random sampling set of 10 parameters
+
+The output of the previous command looks like
+----
+[ Starting Feel++ ] application crbonlinerun version 0.104.0-alpha.10 date 2017-Jul-09
+ . crbonlinerun files are stored in /home/prudhomm/feel/crbonlinerun/np_1
+ .. exports :/home/prudhomm/feel/crbonlinerun/np_1/exports
+ .. logfiles :/home/prudhomm/feel/crbonlinerun/np_1/logs
+Loaded the plugin heat3d
+Last modified db: /home/prudhomm/feel/crbdb/heat3d/4c5148a6-7b1e-4543-a2f1-56d895afc71c/heat3d.crb.json
+dimension of parameter space : 8
+min element in parameter space : 100 100 100 100 29300 29300 29300 -1000
+max element in parameter space : 200 200 200 200 62000 62000 62000 1000
+--------------------------------------
+mu[0] : 177.066 173.107 144.201 190.168 32628.5 61114.9 42897.3 156.468
+output 277.092
+err 1.27319e-06
+--------------------------------------
+mu[1] : 105.221 173.036 181.216 180.088 36958.6 42264.7 39575.6 236.381
+output 222.797
+err 5.75982e-07
+--------------------------------------
+mu[2] : 173.66 189.698 189.316 108.457 47668.8 41861.8 33056.6 523.555
+output 258.181
+err 6.65526e-07
+--------------------------------------
+mu[3] : 117.927 115.727 105.98 119.009 38330.6 42099.7 54722.5 -906.339
+output 393.676
+err 2.23366e-07
+--------------------------------------
+mu[4] : 166.036 121.946 105.149 123.785 35591.2 46718.9 50869.5 719.639
+output 383.395
+err 2.38611e-06
+--------------------------------------
+mu[5] : 180.233 184.746 166.07 103.653 47252.9 50670.7 42979.8 -428.772
+output 320.723
+err 1.18664e-06
+--------------------------------------
+mu[6] : 175.656 131.15 162.982 131.829 59624.2 45161.5 47498 -496.144
+output 361.513
+err 1.70618e-06
+--------------------------------------
+mu[7] : 167.221 138.369 155.798 160.396 36653.7 54823.5 40719.2 129.049
+output 290.629
+err 5.33121e-07
+--------------------------------------
+mu[8] : 143.892 159.93 119.762 136.868 33615.8 46892.9 36772.1 -868.616
+output 286.007
+err 1.74971e-06
+--------------------------------------
+mu[9] : 169.055 111.08 197.084 123.957 37006.3 42026.3 44826.5 -41.7794
+output 298.901
+err 4.09352e-07
+[env] Time : 0.0684201s
+[ Stopping Feel++ ] application crbonlinerun execution time 0.0684201s
+----
+
+
+== Python Online interface

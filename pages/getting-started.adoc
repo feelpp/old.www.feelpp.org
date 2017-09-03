@@ -1,0 +1,18 @@
+= Getting Started with Feel++
+:page-liquid:
+:page-show_meta: false
+:page-layout: page
+:page-permalink: /getting-started/
+:page-header:  {image_fullwidth: "header_homepage_13.jpg"}
+:page-teaser: "This step-by-step guide helps you to start using Feel++."
+:page-subheadline: "A Step-by-Step Guide toto"
+include::../docs/includes/header.adoc[]
+
+. Install {feelpp} {docker} `_config.yml` and work it through, it's well documented
+. link:{{ site.url }}{{ site.baseurl }}/documentation/[Read the documentation] to check out the features of {feelpp}.
+. Make it yours and solve your own problems.
+
+[subs=attributes]
+++++
+<a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the {feelpp} documentation  ›</a>
+++++

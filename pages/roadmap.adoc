@@ -1,0 +1,13 @@
+= Roadmap
+:page-layout: page
+:page-subheadline: ToDo-List & Ideas    
+:page-teaser: "Here are some ideas and features I want to implement in the future."
+:page-header:{ image_fullwidth: "header_roadmap_3.jpg }
+:page-permalink: /roadmap/
+
+
+== Next Big Steps
+
+
+== Done
+
