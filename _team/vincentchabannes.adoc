@@ -1,0 +1,12 @@
+---
+title: vincentchabannes
+function: Research Engineer
+name: Vincent Chabannes
+type: leader
+institute: University of Strasbourg
+country: France
+images:
+  icon: team/vincentchabannes/vincentchabannes-icon.png
+---
+== Bio
+:page-liquid:

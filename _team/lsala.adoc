@@ -1,0 +1,8 @@
+---
+title: sala
+function: Phd Student
+name: Lorenzo Sala
+type: phd
+---
+== Bio
+:page-liquid:

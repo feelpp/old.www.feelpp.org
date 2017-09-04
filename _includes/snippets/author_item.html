@@ -1,0 +1,22 @@
+<li>
+  <section aria-labelledby="{{ author.title | slugify }}" class="author">
+    <a href="{{ site.baseurl }}{{ author.url }}">
+      <header>
+	<h3 id="{{ author.name | slugify }}" class="title"><div class="center">{{ author.name }}</div></h3>
+	<p class="subheadline">{{author.function}}</p>
+      </header>
+      <div class="callout" data-equalizer-watch>
+      <figure>
+	<img src="{{ site.urlimg }}{{ author.images.icon }}" alt="{{ author.title }}" />
+        <!--<img class="gravatar" src="{{ author.email | to_gravatar }}?s=68" />-->
+      </figure>
+      </div>
+      <footer>
+	<p class="teaser">
+          {% if author.institute %} {{ author.institute }} {% endif %}
+          {% if author.country %},{{ author.country }} {% endif %}
+        </p>
+      </footer>
+    </a>
+  </section>
+</li>

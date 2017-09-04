@@ -1,0 +1,21 @@
+---
+title: bertoluzza
+function: Research Director
+email: silvia.bertoluzza@imati.cnr.it
+name: Silvia Bertoluzza
+type: collaborator
+institute: CNR Pavia
+country: Italy
+images:
+  icon: team/bertoluzza/bertoluzza-icon.jpg
+---
+== Bio
+:page-liquid:
+
+++++
+<blockquote>
+Strangely enough, it all turns out well
+How? I don't know, it's a mistery
+[Tom Stoppard]
+</blockquote>
+++++

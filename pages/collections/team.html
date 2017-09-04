@@ -1,0 +1,50 @@
+---
+permalink: /team/
+title: "Team"
+meta_title: "Team"
+layout: page-fullwidth
+breadcrumbs: true
+---
+
+{% assign found = false %}
+{% for author in site.team %}{% if author.type == 'leader' %}
+{% unless found %}{% assign found = true %}
+<h2>Lead Developers</h2>
+<div class="clearfix text-center" >
+  <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 items" data-equalizer data-equalize-on="small">
+    {% endunless %}
+    {% include snippets/author_item.html %}
+    {% endif %}{% endfor %}
+    {% if found %}
+  </ul>
+</div>
+{% endif %}
+
+{% assign found = false %}
+{% for author in site.team %}{% if author.type == 'collaborator' %}
+{% unless found %}{% assign found = true %}
+<h2>Collaborators</h2>
+<div class="clearfix text-center">
+  <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 items">
+    {% endunless %}
+    {% include snippets/author_item.html %}
+    {% endif %}{% endfor %}
+    {% if found %}
+  </ul>
+</div>
+{% endif %}
+
+
+{% assign found = false %}
+{% for author in site.team %}{% if author.type == 'phd' %}
+{% unless found %}{% assign found = true %}
+<h2>Phd Students</h2>
+<div class="clearfix text-center">
+  <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 items">
+    {% endunless %}
+    {% include snippets/author_item.html %}
+    {% endif %}{% endfor %}
+    {% if found %}
+  </ul>
+</div>
+{% endif %}

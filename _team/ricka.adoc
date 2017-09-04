@@ -1,0 +1,9 @@
+---
+title: ricka
+function: Phd Student
+name: Philippe Ricka
+advisor: [prudhomm, guidoboni, szopos]
+type: phd
+---
+== Bio
+:page-liquid:

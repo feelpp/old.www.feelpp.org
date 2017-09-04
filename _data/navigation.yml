@@ -1,12 +1,15 @@
 - title: Home
-  icon: home
+  icon: icon-home
   url: "/"
   side: left
 
 - title: Getting Started
-  icon: install
+  icon: icon-install
   url: "/getting-started/"
   side: left
+  dropdown:
+   - title: "Download"
+     url: "/download/"
 
 # - title: "Examples"
 #   url: "/examples/"

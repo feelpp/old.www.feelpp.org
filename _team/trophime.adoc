@@ -1,0 +1,10 @@
+---
+title: trophime
+function: Research Engineer
+name: Christophe Trophime
+type: collaborator
+institute: Laboratoire des Champs Magnétiques Intenses, CNRS
+country: France
+---
+== Bio
+:page-liquid:

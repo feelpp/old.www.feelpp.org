@@ -1,0 +1,8 @@
+---
+title: hild
+function: Phd Student
+name: Romain Hild
+type: phd
+---
+== Bio
+:page-liquid:

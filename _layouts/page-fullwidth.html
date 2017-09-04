@@ -15,31 +15,53 @@ format: page-fullwidth
 </div><!-- /.row -->
 {% endif %}
 
-
+{% if page.toc %}
 <div class="grid-x t30">
-  <div  class="small-3 columns sidebar-container">
-    <div class="sidebar">
-      <div id="toc" class="toc3" > <!--class="panel">-->
-        <div id="toctitle">Table of Contents</div>
-        {{ page.document | tocify_asciidoc:2 }}
+  <div  class="small-3 columns sidebar-container" data-sticky-container>
+    <div class="sticky" data-sticky data-top-anchor="navigation:bottom" data-margin-top="0">
+      <div class="sidebar">
+        <div id="toc" class="toc3" > <!--class="panel">-->
+          <div id="toctitle">Table of Contents</div>
+          {{ page.document | tocify_asciidoc:2 }}
+        </div>
       </div>
     </div>
   </div>
 
-	<div class="small-9 columns cell">
-		<article>
-			<header>
-				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
-				<h1>{{ page.title }}</h1>
-			</header>
+  <div class="small-9 columns cell">
+    <article>
+      <header>
+	{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+	<h1>{{ page.title }}</h1>
+      </header>
 
-			{% if page.teaser %}
-			<p class="teaser">
-				{{ page.teaser }}
-			</p>
-			{% endif %}
+      {% if page.teaser %}
+      <p class="teaser">
+	{{ page.teaser }}
+      </p>
+      {% endif %}
 
-			{{ content }}
-		</article>
-	</div><!-- /.medium-12.columns -->
+      {{ content }}
+    </article>
+  </div><!-- /.medium-12.columns -->
 </div><!-- /.row -->
+{% else %}
+<div class="grid-x t30">
+  <div class="small-12 columns cell">
+    <article>
+      <header>
+	{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+	<h1>{{ page.title }}</h1>
+      </header>
+
+      {% if page.teaser %}
+      <p class="teaser">
+	{{ page.teaser }}
+      </p>
+      {% endif %}
+
+      {{ content }}
+    </article>
+  </div><!-- /.medium-12.columns -->
+  </div>
+{% endif %}

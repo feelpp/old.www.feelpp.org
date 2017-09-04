@@ -1,19 +1,21 @@
 ---
 categories:
-    - design
-tags:
-    - design
     - example
+tags:
+    - example
+    - laplacian
 ---
 = Laplacian
 :page-layout: page-fullwidth
+:page-date: 2017-09-01
+:page-toc: true
 :page-title:  "Solving for the Laplacian"
 :page-header: no
-:page-subheadline:  ""
+:page-subheadline:  "[programming]"
 :page-teaser: "Feel++ allows you to solve a large range of partial differential equations. Here is one of the simplest"
 :page-liquid:
-:toc:
 :stem: latexmath
+:source-uri: https://raw.githubusercontent.com/feelpp/feelpp/develop/quickstart/
 include::../../pages/includes/header.adoc[]
 
 = The Laplacian
@@ -29,7 +31,9 @@ Look for stem:[u] such that
 
 [stem]
 ++++
-\left\{\begin{aligned}                                                                                                                                              -\Delta u &= f \text{ in } \Omega\\                                                                                                                           u &= g \text{ on } \partial \Omega_D\\
+\left\{\begin{aligned}
+-\Delta u &= f \text{ in } \Omega\\
+u &= g \text{ on } \partial \Omega_D\\
 \frac{\partial u}{\partial n} &=h \text{ on } \partial \Omega_N\\
 \frac{\partial u}{\partial n} + u &=l \text{ on } \partial \Omega_R
  \end{aligned}\right.
@@ -103,23 +107,16 @@ stem:[P^k_{c,\delta}].
 
 NOTE: The Dirichlet boundary conditions can be treated using different techniques and we use from now on the elimination technique.
 
-We start with the mesh
+We start with the mesh and the discretization setting by first defining `Vh=Pch<k>(mesh)` stem:[\equiv P^k_{c,h}], then elements of `Vh` and expressions `f`, `n` and `g` given by command line options or configuration file.
+
 
 [source,cpp]
 ----
-include::{source-uri}qs_laplacian.cpp[tag=mesh]
+include::{source-uri}qs_laplacian.cpp[tag=mesh_space]
 ----
 
 
 NOTE: the keyword `auto` enables type inference, for more details see link:https://en.wikipedia.org/wiki/C%2B%2B11#Type_inference[Wikipedia C{plus}{plus}11 page].
-
-
-Next the discretization setting by first defining `Vh=Pch<k>(mesh)` stem:[\equiv P^k_{c,h}], then elements of `Vh` and expressions `f`, `n` and `g` given by command line options or configuration file.
-
-[source,cpp]
-----
-include::{source-uri}qs_laplacian.cpp[tag=discr]
-----
 
 [NOTE]
 ======
@@ -142,7 +139,7 @@ Dirichlet boundary conditions all over the boundary.
 
 [source,cpp]
 ----
-include::{source-uri}qs_laplacian.cpp[tag=vf]
+include::{source-uri}qs_laplacian.cpp[tag=forms]
 ----
 
 [NOTE]
@@ -178,7 +175,7 @@ exact solution of the <<laplacian>>.
 
 [source,cpp]
 ----
-include::{source-uri}qs_laplacian.cpp[tag=ug]
+include::{source-uri}qs_laplacian.cpp[tag=check]
 ----
 
 and finally we export the results, by default it is in the ensight
@@ -258,17 +255,7 @@ When it's finish, we can extract some informations
 |Solution stem:[u_\delta]| Mesh
 |======
 
-=== All Generic Programming Examples
-{% include list-posts tag='example' %}
-
-
-
-
-<!--more-->
-
-=== All Generic Programming Examples
+== All Generic Programming Examples
 ++++
-{: .t60 }
-
 {% include list-posts tag='example' %}
 ++++

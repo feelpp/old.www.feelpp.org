@@ -47,9 +47,9 @@ logo: feelpp_logo_white.png
 
 # Gems
 plugins:
-    - jekyll-asciidoc
-    - jekyll-gist
-    - jekyll-paginate
+  - jekyll-asciidoc
+  - jekyll-gist
+  - jekyll-paginate
 
 
 #       ____              _             __  _
@@ -122,6 +122,17 @@ defaults:
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
       author: prudhomm     # Default author for posts
+  -
+    scope:
+      path: 'blog/category'
+    values:
+      #permalink: /blog/:category/ # will be available in 3.0, see https://github.com/jekyll/jekyll/pull/3320
+      layout: blog_by_category
+      breadcrumbs: true
+      title_suffix: "category details"
+      show_meta:
+        sharer: true
+        comments: true
 
 
 
@@ -248,6 +259,17 @@ google_analytics_tracking_id: UA-65761593-1
 # used in _includes/footer_scripts
 
 # tawkto_embed_uri: UA-65761593-1
+
+collections:
+  projects:
+    output: true
+    permalink: /project/:name/
+  milestones:
+    output: true
+    permalink: /work/:name/
+  team:
+    output: true
+    permalink: /team/:name/
 
 
 #     ___              _     __           __

@@ -1,0 +1,12 @@
+---
+title: prudhomm
+function: Professor
+name: Christophe Prud'homme
+email: christophe.prudhomme@feelpp.org
+type: leader
+images:
+  icon: team/prudhomm/prudhomm-icon.jpeg
+institute: University of Strasbourg  
+---
+== Bio
+:page-liquid:

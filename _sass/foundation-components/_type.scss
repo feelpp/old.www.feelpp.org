@@ -305,7 +305,7 @@ $align-class-breakpoints:
     }
 
     code {
-      background-color: $code-background-color;
+      background: $code-background-color;
       border-color: $code-border-color;
       border-style: $code-border-style;
       border-width: $code-border-size;
@@ -366,7 +366,7 @@ $align-class-breakpoints:
     .no-bullet {
       list-style-type: none;
       margin-#{$default-float}: $list-side-margin-no-bullet;
-      
+
       li {
         ul,
         ol {

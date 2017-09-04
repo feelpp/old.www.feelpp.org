@@ -1,0 +1,60 @@
+---
+permalink: /project/
+redirect_from:
+  - /projects/
+title: "Project List"
+meta_title: "Projects List"
+layout: page-fullwidth
+breadcrumbs: true
+---
+
+{% assign found = false %}
+{% for project in site.projects %}{% if project.published and project.type == 'multi-disciplinary' %}
+{% unless found %}{% assign found = true %}
+<h2>Multi-Disciplinary Projects</h2>
+		<div class="clearfix text-center">
+		<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 items">
+	{% endunless %}
+	{% include snippets/project_item.html %}
+{% endif %}{% endfor %}
+{% if found %}
+	</ul>
+	</div>
+{% endif %}
+
+{% assign found = false %}
+{% for project in site.projects %}{% if project.published and project.type == 'industrial' %}
+	{% unless found %}{% assign found = true %}
+		<h2>Industrial Projects</h2>
+		<blockquote>
+			A proof of concept (PoC) is a realization of a certain method or idea to demonstrate its feasibility whose purpose is to verify that some concept has the potential of being used. A proof of concept is usually small and may or may not be complete. A pilot project is targeting a limited scope of the intended final solution.
+			<cite><a href="https://en.wikipedia.org/wiki/Proof_of_concept">Wikipedia</a></cite>
+		</blockquote>
+		<div class="clearfix text-center">
+		<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 items">
+	{% endunless %}
+		{% include snippets/project_item.html %}
+{% endif %}{% endfor %}
+{% if found %}
+	</ul>
+	</div>
+{% endif %}
+
+
+{% assign found = false %}
+{% for project in site.projects %}{% if project.published and project.type == 'bodge' %}
+	{% unless found %}{% assign found = true %}
+		<h2>Bodges</h2>
+		<blockquote>
+			Bodging is a wonderful British word that means to patch together, to make temporary repairs. A bodge is clumsy, it's inelegant, it'll fall apart, but it'll work. And it'll keep working as long as there's someone around to bodge it again if it breaks. You know that bit in Apollo 13 where they have to fit the square peg in the round hole? That is a bodge. Actually, that's possibly the greatest bodge in human history.
+			<cite><a href="https://www.youtube.com/watch?v=lIFE7h3m40U">Tom Scott</a></cite>
+		</blockquote>
+		<div class="clearfix text-center">
+		<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 items">
+	{% endunless %}
+	{% include snippets/project_item.html %}
+{% endif %}{% endfor %}
+{% if found %}
+	</ul>
+	</div>
+{% endif %}

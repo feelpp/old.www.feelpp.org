@@ -1,0 +1,10 @@
+---
+title: sacco
+function: Professor
+name: Riccardo Sacco
+type: collaborator
+institute: Politecnico di Milano
+country: Italy
+---
+== Bio
+:page-liquid:

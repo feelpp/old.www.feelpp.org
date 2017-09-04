@@ -1,0 +1,8 @@
+---
+title: fdh
+function: Phd Student
+name: Francois Der Hovsepian
+type: phd
+---
+== Bio
+:page-liquid:

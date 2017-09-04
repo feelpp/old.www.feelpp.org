@@ -1,0 +1,19 @@
+- feelpp-libs:
+  title: "feelpp/feelpp-libs"
+  icon: icon-home
+  description: "Feel++ Libraries and development environment is available from Docker Hub.
+               It includes a mesh partitioner that generates partitioned mesh that can be read e.g. on a supercomputer in an efficient way."
+  pull: "docker pull feelpp/feelpp-libs"
+  run: "docker run -it -v $HOME/feel/:/feel feelpp/feelpp-libs"
+
+- feelpp-base:
+  title: "feelpp/feelpp-base"
+  description: "The feelpp-base image contains the Feel++ libraries and environment as well as some basic application such as solving the Laplacian in 2D or 3D or Stokes in 2D with some testcases."
+  pull: "docker pull feelpp/feelpp-base"
+  run: "docker run -it -v $HOME/feel/:/feel feelpp/feelpp-base"
+
+- feelpp-toolboxes:
+  title: "feelpp/feelpp-toolboxes"
+  description: "The feelpp-toolboxes image contains the Feel++ libraries and environement, the basic applications and the toolboxes in Computational Fluid Dynamics/CFD, Computational Solid Mechanics/CSM, Fluid Structure Interaction/FSI, Heat Transfer/HT and Thermo-Electric/TE ."
+  pull: "docker pull feelpp/feelpp-toolboxes"
+  run: "docker run -it -v $HOME/feel/:/feel feelpp/feelpp-toolboxes"

@@ -1,0 +1,8 @@
+---
+title: wahl
+function: Phd Student
+name: Jean-Baptiste Wahl
+type: phd
+---
+== Bio
+:page-liquid:

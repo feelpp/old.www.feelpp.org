@@ -1,0 +1,8 @@
+---
+title: dolle
+function: Phd Student
+name: Guillaume Dollé
+type: phd
+---
+== Bio
+:page-liquid:

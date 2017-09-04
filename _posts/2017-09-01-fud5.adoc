@@ -1,0 +1,71 @@
+---
+category: workshop
+tags:
+  - feelpp
+  - event
+  - fud
+header:
+  image_fullwidth: header_unsplash_workshop.jpg
+---
+= 5-th Feel++ Users Days
+:page-layout: page
+:page-date: 2017-09-11
+:page-author: prudhomm
+:page-title:  5th Feel++ User Days
+:page-subheadline:  "[fud-5]"
+:page-teaser: "The 5th Feel++ User Days in Strasbourg from Sept 11 to Sept 14"
+:page-liquid:
+:page-toc: true
+:toc:
+
+The Center of Modeling and Simulation in Strasbourg as well as the Feel++ development team organize the "Fifth Feel++ User Days".
+The FUD-5 will take place in Strasbourg at IRMA between September 11 and September 14 (included) 2017.
+
+== Sponsors
+
+The 5th Feel++ User days are sponsored by
+
+ - link:http://www.cemosis.fr[Cemosis], the Center for Mathematical
+   Modeling and Simulation in Strasbourg,
+
+ - the ANR Project http://www.vivabrain.fr[VIVABRAIN]
+
+ - the ANR Project CHORUS
+
+== Programme
+
+We have special guests for these FUD 5.0.
+
+ - TBA 
+
+March 23 starts with a presentation reviewing the past developements
+of Feel++ and what the future holds. It is then followed by
+presentations associated to the ANR project
+[HAMM](http://www.hamm-project.fr) on high performance computing and
+hybrid computing.
+
+March 24 is largely dedicated to the bio-medical projects associated
+to {feelpp}. Our special guests speak on Tuesday too 1
+
+March 25 is dedicated to entreprises with presentations from various
+collaborations with industry :Airbus, PlasticOmnium Automotive,
+SigmaPhi, Gazomat and Holo3.
+
+The full programme is link:https://docs.google.com/spreadsheet/ccc?key=0Agqh_bgdr40TdDg1cDl4QXdaM000NUlFYk9ReUprX0E&usp=sharing[here].
+
+== Register
+
+Registration is free but mandatory for logistic reasons(breaks,
+lunches and social event on September 7). The deadline is September, 14,
+2017.
+
+++++
+<iframe src="https://docs.google.com/forms/d/1dByBYGFPoadJbCmsr0_dzIqodJ0dgMlUnuMYRJe9kko/viewform?embedded=true" width="569" height="500" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
+++++
+
+== From the train station to the Institute
+
+++++
+<iframe src="https://www.google.com/maps/embed?pb=!1m29!1m12!1m3!1d10557.68585694684!2d7.740339418101108!3d48.58262847971634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e3!4m5!1s0x4796c849fe2e6bbd%3A0xd960066e84c58c5!2sGare+Centrale%2C+Strasbourg!3m2!1d48.585266!2d7.7354519999999996!4m5!1s0x4796c8fe50b3eb29%3A0x66aa010dad7acb60!2sInstitut+de+Recherche+Math%C3%A9matique+Avanc%C3%A9e%2C+7+Rue+Ren%C3%A9+Descartes%2C+67000+Strasbourg!3m2!1d48.580455!2d7.762986!5e0!3m2!1sfr!2sfr!4v1425487485095" width="600" height="450" frameborder="0" style="border:0"></iframe>
+++++
+

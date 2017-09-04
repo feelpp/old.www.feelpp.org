@@ -1,0 +1,10 @@
+---
+title: belhachmi
+function: Professor
+name: Zakaria Belhachmi
+type: collaborator
+institute: Université de Haute Alsace
+country: France
+---
+== Bio
+:page-liquid:

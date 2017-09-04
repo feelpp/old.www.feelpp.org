@@ -1,0 +1,10 @@
+---
+title: szopos
+function: Assistant Professor
+name: Marcela Szopos
+email: szopos@math.unistra.fr
+type: collaborator
+institute: University of Strasbourg
+---
+== Bio
+:page-liquid:
