@@ -17,7 +17,7 @@ slogan: 'Finite Element Embedded Library in C++'
 description: '»Feel++ is a finite element library including toolboxes and applications to solve academic and industrial problems.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Created with &hearts; by <a href="http://feelpp.org/">prudhomm</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
+credits: '<p>Created with &hearts; by <a href="http://github.com/">prudhomm</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
 
 # Main author of the website
 # See > authors.yml
@@ -25,7 +25,7 @@ author: prudhomm
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://www.feelpp.org'
+url: 'https://www2.feelpp.org'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
@@ -38,7 +38,7 @@ improve_content: https://github.com/feelpp/book.feelpp.org/edit/master
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://phlow.github.io/feeling-responsive/images/'
+urlimg: 'https://www2.feelpp.org/images/'
 
 
 # Logo size is 600x80 pixels
