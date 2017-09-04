@@ -11,12 +11,12 @@ widget1:
   title: "Features"
   url: '/features/'
   image: widget-1-302x182.jpg
-  text: 'Feel++ is a poweful, expressive and scalable finite element embedded library in C++. It contains many features'
+  text: 'Feel++ is a poweful, expressive and scalable finite element embedded library in C++. It contains many features<br/>1. DSEL for Galerkin methods :)<br/>2. Seamless parallelism.<br/>3. A toolbox framework: CFD, CSM, FSI, LS, TE.<br/>4. Automated docker deployment.<br/>...'
 widget2:
-  title: "Why use this theme?"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
+  title: "Portfolio"
+  url: 'http://www.cemosis.fr/software/feelpp/'
+  text: '<em>Feel++</em> is the flagship software of <a href="http://www.cemosis.fr">Cemosis</a>.<br/>'
+  video: '<a href="#" data-reveal-id="videoModal"><img src="/images/toolbox/FlowAroundCylinder-600x300.png" width="302" height="182" alt=""/></a>'
 widget3:
   title: "Download Feel++"
   url: '/download'
@@ -32,10 +32,10 @@ widget3:
 # to use the main color or success, alert or secondary.
 # To change colors see sass/_01_settings_colors.scss
 #
-callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
-  style: alert
+#callforaction:
+#  url: https://tinyletter.com/feeling-responsive
+#  text: Inform me about new updates and features ›
+#  style: alert
 permalink: /index.html
 #
 # This is a nasty hack to make the navigation highlight
@@ -46,7 +46,7 @@ homepage: true
 
 <div id="videoModal" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
+    <iframe width="1280" height="720" src="https://www.youtube.com/watch?v=RzvRS8970_k" frameborder="0" allowfullscreen></iframe>
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
