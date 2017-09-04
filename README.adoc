@@ -1,0 +1,21 @@
+= Feel++ website
+:feelpp: Feel++
+
+== Generating the website
+
+* install ruby
+
+* install bundle
+
+[source,shell]
+----
+gem install bundle
+----
+
+* generate the website
+
+[source,shell]
+----
+boundle install
+bundle exec jekyll serve
+----
