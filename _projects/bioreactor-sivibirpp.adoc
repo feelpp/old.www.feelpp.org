@@ -1,5 +1,5 @@
 ---
-title: "SiviBirpp"
+title: "BioReactor SiviBir++"
 subheadline: ""
 teaser: ""
 published: true
@@ -7,14 +7,14 @@ type: multi-disciplinary
 header:
   image_fullwidth: header_unsplash_12.jpg
 images:
-  icon: projects/sivibirpp/sivibirpp.png
-  icon_small: projects/sivibirpp/sivibirpp.png
+  icon: projects/bioreactor-sivibirpp/bioreactor-sivibirpp.png
+  icon_small: projects/bioreactor-sivibirpp/bioreactor-sivibirpp.png
   screenshots:
-    - url: projects/sivibirpp/H1H8_B3D.jpg
+    - url: projects/bioreactor-sivibirpp/H1H8_B3D.jpg
       title: "Magnet Study"
 links:
   cemosis:
 ---
-= SiViBir++
+= BioReactor SiViBir++
 
 
