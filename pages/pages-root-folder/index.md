@@ -14,9 +14,9 @@ widget1:
   text: 'Feel++ is a poweful, expressive and scalable finite element embedded library in C++. It contains many features<br/>1. DSEL for Galerkin methods :)<br/>2. Seamless parallelism.<br/>3. A toolbox framework: CFD, CSM, FSI, LS, TE.<br/>4. Automated docker deployment.<br/>...'
 widget2:
   title: "Portfolio"
-  url: 'http://www.cemosis.fr/software/feelpp/'
+  url: '/portfolio'
   text: '<em>Feel++</em> is the flagship software of <a href="http://www.cemosis.fr">Cemosis</a>.<br/>'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="/images/toolbox/FlowAroundCylinder-600x300.png" width="302" height="182" alt=""/></a>'
+  video: '<a href="#" data-reveal-id="videoModal"><img src="/images/header_unsplash_portfolio.jpg" width="302" height="182" alt=""/></a>'
 widget3:
   title: "Download Feel++"
   url: '/download'
