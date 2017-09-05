@@ -28,6 +28,8 @@ The 5th Feel++ User days are sponsored by
  - link:http://www.cemosis.fr[Cemosis], the Center for Mathematical
    Modeling and Simulation in Strasbourg,
 
+ - the EU EINFRA H2020 project MSO4SC
+ 
  - the ANR Project http://www.vivabrain.fr[VIVABRAIN]
 
  - the ANR Project CHORUS
@@ -36,28 +38,18 @@ The 5th Feel++ User days are sponsored by
 
 We have special guests for these FUD 5.0.
 
- - TBA 
+ - Frédéric Bertrand
+ - Jacky Goetz
+ - Gauther Follain
+ - Charles Pivot
 
-March 23 starts with a presentation reviewing the past developements
-of Feel++ and what the future holds. It is then followed by
-presentations associated to the ANR project
-[HAMM](http://www.hamm-project.fr) on high performance computing and
-hybrid computing.
-
-March 24 is largely dedicated to the bio-medical projects associated
-to {feelpp}. Our special guests speak on Tuesday too 1
-
-March 25 is dedicated to entreprises with presentations from various
-collaborations with industry :Airbus, PlasticOmnium Automotive,
-SigmaPhi, Gazomat and Holo3.
 
 The full programme is link:https://docs.google.com/spreadsheets/d/1D8_63689yngxKBF0O7-8xJkB9d_kex5DMnXtMcrISEk/edit?usp=sharing[here].
 
-== Register
+== Free (but Mandatory) Registration
 
 Registration is free but mandatory for logistic reasons(breaks,
-lunches and social event on September 7). The deadline is September, 14,
-2017.
+lunches and social event on September 14). The deadline is September, 8, 2017 at noon
 
 ++++
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdFz8dsrT-BHR2gRJV_pep7eVyGD7QlqOQi5498BklhWtLZjw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
