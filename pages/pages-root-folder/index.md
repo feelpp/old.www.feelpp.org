@@ -15,7 +15,7 @@ widget1:
 widget2:
   title: "Portfolio"
   url: '/portfolio'
-  text: '<em>Feel++</em> is the flagship software of <a href="http://www.cemosis.fr">Cemosis</a>.<br/>'
+  text: '<em>Feel++</em> is the flagship software of <a href="http://www.cemosis.fr">Cemosis</a>.<br/>Several multi-disciplinary projects as well as projects with entreprise are developed with Feel++<br/>'
   video: '<a href="#" data-reveal-id="videoModal"><img src="/images/header_unsplash_portfolio.jpg" width="302" height="182" alt=""/></a>'
 widget3:
   title: "Download Feel++"
