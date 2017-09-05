@@ -3,7 +3,7 @@
 :page-show_meta: false
 :page-layout: page
 :page-permalink: /download/
-:page-header:  {image_fullwidth: "download-image-button-1500x1000.jpg"}
+:page-header:  {image_fullwidth: "download-image-button-1500x1000.png"}
 :page-teaser: "Download Feel++"
 :page-subheadline: "[Download]"
 include::../docs/includes/header.adoc[]
