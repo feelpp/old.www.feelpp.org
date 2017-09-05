@@ -1,0 +1,124 @@
+= Feel++ Features
+:page-liquid:
+:page-show_meta: false
+:page-layout: page
+:page-permalink: /features/
+:page-header:  {image_fullwidth: "download-image-button-1500x1000.png"}
+:page-teaser: "Feel++ Features"
+:page-subheadline: "[Features]"
+include::../docs/includes/header.adoc[]
+
+== Domain Specific Embedded Language in {cpp} for the Finite Element Method
+
+{feelpp} embeds in {cpp} mathematical concepts through an expressive DSEL
+
+* Mesh
+** Supports 1D to 3D as well as curves and surfaces including high order.
+** Supports mesh partitioning and fast i/o for large scale meshes
+** Supports mesh extraction and efficient operations between related meshes
+* Function Spaces
+** Supports function spaces with a large range of finite elements.
+** Supports seamless interpolation between meshes
+** Supports cartesian product of spaces, views on subspaces and subelements
+* Variational formulation
+** Supports bilinear and linear forms concepts.
+** Supports forms on cartesian product spaces
+** Supports block forms on different spaces
+* Post Processing
+** Supports high order meshes and approximations.
+** Supports various formats: ensight, vtk, xdmf, gmsh
+** Supports post-processing quantities such as average values
+
+== Galerkin Methods
+
+{feelpp} supports
+
+* Continuous Galerkin methods
+* Discussions Galerkin methods
+* Hybrid Discussions Galerkin methods
+* Reduced Basis methods
+* Leveset methods
+* Fictitous domain methods
+
+== Scalable
+
+{feelpp} uses MPI for parallel computing.
+Regarding algebraic solutions {feelpp} uses PETSc as the main backend for large scale computations.
+
+
+== Toolboxes
+
+{feelpp} supports variouts toolboxes:
+
+* Computational fluid dynamics
+* Computational solid mechanics
+* Heat transfer
+* Fluid structure interaction
+* Aerothermics
+* Thermoelectric
+* Thermo-mechanics
+* Maxwell
+
+== Wide range of applications
+
+
+++++
+<div class="row small-up-2 medium-up-3">
+  <div class="column">
+    <div class="card">
+      <img src="">
+      <div class="card-section">
+        <h4>This is a card.</h4>
+        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="assets/img/generic/rectangle-1.jpg">
+      <div class="card-section">
+        <h4>This is a card.</h4>
+        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="assets/img/generic/rectangle-1.jpg">
+      <div class="card-section">
+        <h4>This is a card.</h4>
+        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="medium-4 columns">
+    <div class="card">
+      <img src="assets/img/generic/rectangle-1.jpg">
+      <div class="card-section">
+        <h4>This is a card.</h4>
+        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+      </div>
+    </div>
+  </div>
+  <div class="medium-5 columns">
+    <div class="card">
+      <img src="assets/img/generic/rectangle-1.jpg">
+      <div class="card-section">
+        <h4>This is a card.</h4>
+        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+      </div>
+    </div>
+  </div>
+  <div class="medium-3 columns">
+    <div class="card">
+      <img src="assets/img/generic/rectangle-1.jpg">
+      <div class="card-section">
+        <h4>This is a card.</h4>
+        <p>It has an easy to override visual style, and is appropriately subdued.</p>
+      </div>
+    </div>
+  </div>
+</div>
+++++

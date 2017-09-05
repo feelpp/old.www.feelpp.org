@@ -19,3 +19,10 @@ gem install bundle
 boundle install
 bundle exec jekyll serve
 ----
+
+== local
+
+[source,shell]
+----
+bundle exec jekyll serve  --config _config.yml,_config_dev.yml 
+----

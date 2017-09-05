@@ -1,0 +1,20 @@
+---
+title: "Blood Rheology"
+subheadline: ""
+teaser: ""
+published: true
+type: multi-disciplinary
+header:
+  image_fullwidth: header_unsplash_12.jpg
+images:
+  icon: projects/blood-rheology/blood-rheology.png
+  icon_small: projects/blood-rheology/blood-rheology.png
+  screenshots:
+    - url: projects/blood-rheology/H1H8_B3D.jpg
+      title: "Magnet Study"
+links:
+  cemosis:
+---
+= Blood Rheology
+
+

@@ -1,0 +1,20 @@
+---
+title: "Chorus"
+subheadline: "Common Horizon in Uncertainty quantification in Simulation"
+teaser: "Sensitivity analysis."
+published: true
+type: entreprise
+header:
+  image_fullwidth: header_unsplash_12.jpg
+images:
+  icon: projects/chorus/chorus.png
+  icon_small: projects/chorus/chorus.png
+  screenshots:
+    - url: projects/chorus/H1H8_B3D.jpg
+      title: ""
+links:
+  cemosis:
+---
+= Chorus
+
+

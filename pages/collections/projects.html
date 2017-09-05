@@ -23,9 +23,9 @@ breadcrumbs: true
 {% endif %}
 
 {% assign found = false %}
-{% for project in site.projects %}{% if project.published and project.type == 'industrial' %}
+{% for project in site.projects %}{% if project.published and project.type == 'entreprise' %}
 	{% unless found %}{% assign found = true %}
-		<h2>Industrial Projects</h2>
+		<h2>Projects with Entreprises</h2>
 		<blockquote>
 			A proof of concept (PoC) is a realization of a certain method or idea to demonstrate its feasibility whose purpose is to verify that some concept has the potential of being used. A proof of concept is usually small and may or may not be complete. A pilot project is targeting a limited scope of the intended final solution.
 			<cite><a href="https://en.wikipedia.org/wiki/Proof_of_concept">Wikipedia</a></cite>

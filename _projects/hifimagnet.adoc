@@ -1,0 +1,20 @@
+---
+title: "High Field Magnets"
+subheadline: "HiFiMagnet"
+teaser: "The highest field intensity magnets  possible"
+published: true
+type: multi-disciplinary
+header:
+  image_fullwidth: header_unsplash_12.jpg
+images:
+  icon: projects/hifimagnet/hifimagnet.png
+  icon_small: projects/hifimagnet/hifimagnet.png
+  screenshots:
+    - url: projects/hifimagnet/H1H8_B3D.jpg
+      title: "Magnet Study"
+links:
+  cemosis:
+---
+= High Field Magnets 
+
+

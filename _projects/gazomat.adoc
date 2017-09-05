@@ -1,0 +1,20 @@
+---
+title: "Gazomat"
+subheadline: ""
+teaser: ""
+published: true
+type: entreprise
+header:
+  image_fullwidth: header_unsplash_12.jpg
+images:
+  icon: projects/gazomat/gazomat.png
+  icon_small: projects/gazomat/gazomat.png
+  screenshots:
+    - url: projects/gazomat/H1H8_B3D.jpg
+      title: "Magnet Study"
+links:
+  cemosis:
+---
+= Gazomat
+
+

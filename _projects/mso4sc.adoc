@@ -1,0 +1,20 @@
+---
+title: "MSO4SC"
+subheadline: ""
+teaser: ""
+published: true
+type: entreprise
+header:
+  image_fullwidth: header_unsplash_12.jpg
+images:
+  icon: projects/mso4sc/mso4sc.png
+  icon_small: projects/mso4sc/mso4sc.png
+  screenshots:
+    - url: projects/mso4sc/H1H8_B3D.jpg
+      title: "Magnet Study"
+links:
+  cemosis:
+---
+= MSO4SC
+
+

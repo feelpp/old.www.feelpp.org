@@ -1,0 +1,20 @@
+---
+title: "Holo3"
+subheadline: ""
+teaser: ""
+published: true
+type: entreprise
+header:
+  image_fullwidth: header_unsplash_12.jpg
+images:
+  icon: projects/holo3/holo3.png
+  icon_small: projects/holo3/holo3.png
+  screenshots:
+    - url: projects/holo3/H1H8_B3D.jpg
+      title: "Magnet Study"
+links:
+  cemosis:
+---
+= Holo3
+
+

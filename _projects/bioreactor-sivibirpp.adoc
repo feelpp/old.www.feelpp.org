@@ -1,0 +1,20 @@
+---
+title: "SiviBirpp"
+subheadline: ""
+teaser: ""
+published: true
+type: multi-disciplinary
+header:
+  image_fullwidth: header_unsplash_12.jpg
+images:
+  icon: projects/sivibirpp/sivibirpp.png
+  icon_small: projects/sivibirpp/sivibirpp.png
+  screenshots:
+    - url: projects/sivibirpp/H1H8_B3D.jpg
+      title: "Magnet Study"
+links:
+  cemosis:
+---
+= SiViBir++
+
+
