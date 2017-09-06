@@ -12,3 +12,9 @@ prudhomm: # replace this with your info
   email: christophe.prudhomme@cemosis.fr
   twitter: "@prudhomm"
 # you can add more authors here
+
+romainhild:
+  name: "Romain Hild"
+  siterole: "Author"
+  email: romain.hild@unistra.fr
+
