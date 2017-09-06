@@ -16,7 +16,7 @@ breadcrumbs: true
 	</head>
 	<body id="top-of-page">
 		<xsl:text disable-output-escaping="yes"><![CDATA[
-		{% include _navigation.html %}
+		{% include navigation.html %}
 		{% include _masthead.html %}
 		{% include alert warning=page.disclaimer classes="text-center" %}
 		]]></xsl:text>

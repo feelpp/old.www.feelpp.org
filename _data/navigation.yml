@@ -1,10 +1,10 @@
 - title: Home
-  icon: icon-home
+  icon: home
   url: "/"
   side: left
 
 - title: Getting Started
-  icon: icon-install
+  icon: install
   url: "/getting-started/"
   side: left
   dropdown:
@@ -29,18 +29,20 @@
 #   - title: "Heat"
 #     url: "/toolbox/heat/"
 
-# - title: Portfolio
-#   url: /project/
-#   side: left
-#   dropdown:
-#   - special: projects
+- title: Portfolio
+  icon: lab-flask
+  url: /portfolio/
+  side: left
+  dropdown:
+  - special: portfolio
 
-# - title: Documentation
-#   url: "/documentation/"
-#   side: left
-#   dropdown:
-#   - title: "User Manual"
-#     url: "/user-manual/"
+- title: Documentation
+  icon: bookmark
+  url: "http://book.feelpp.org"
+  side: left
+  dropdown:
+  - title: "User Manual"
+    url: "http://book.feelpp.org/user-manual/"
 #   - title: "Changelog"
 #     url: "/changelog/"
 #   - title: "Roadmap"

@@ -1,0 +1,35 @@
+---
+category: publication
+tags:
+  - feelpp
+  - publication
+  - 
+header:
+  image_fullwidth: header_unsplash_publication.jpg
+---
+= New Article on Stokes Boundary Conditions
+:page-layout: page
+:page-date: 2017-05-21
+:page-author: mszopos
+:page-title:  New article on Stokes boundary conditions in press
+:page-subheadline:  "[cmame2017]"
+:page-teaser: "Boundary conditions involving pressure for the Stokes problem and applications to hemodynamics"
+:page-liquid:
+
+
+
+Our recent work on boundary conditions involving pressure for the Stokes problem and their applications in computational hemodynamics is now published in CMAME and available on line: +
+https://doi.org/10.1016/j.cma.2017.04.024
+
+
+== Highlights:
+
+* A novel Lagrange multipliers-based formulation of the Stokes system involving pressure boundary condition on a part of the boundary is proposed.
+
+* Discretization in a finite element framework and complete analysis, from the continuous to the discrete level, in two and three dimensions are provided.
+
+* Optimal convergence rates are obtained for standard inf–sup stable finite element spaces, such as Taylor–Hood elements.
+
+* Different algebraic solution strategies are proposed, including block factorization based preconditioners.
+
+* Verification of the convergence properties and three-dimensional simulations of blood flow in the cerebral venous network are displayed.
