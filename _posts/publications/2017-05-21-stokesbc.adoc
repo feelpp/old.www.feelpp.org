@@ -15,8 +15,6 @@ header:
 :page-subheadline:  "[cmame2017]"
 :page-teaser: "Boundary conditions involving pressure for the Stokes problem and applications to hemodynamics"
 :page-liquid:
-:page-toc: true
-:toc:
 
 
 
