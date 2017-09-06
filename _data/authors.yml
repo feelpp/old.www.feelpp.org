@@ -13,6 +13,11 @@ prudhomm: # replace this with your info
   twitter: "@prudhomm"
 # you can add more authors here
 
+romainhild:
+  name: "Romain Hild"
+  siterole: "Author"
+  email: romain.hild@unistra.fr
+
 mszopos:
   name: "Marcela Szopos"
   siterole: "author"
