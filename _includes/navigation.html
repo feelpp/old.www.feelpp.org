@@ -1,0 +1,28 @@
+<div id="navigation" class="sticky">
+  <nav class="top-bar" role="navigation" data-topbar="">
+    <ul class="title-area">
+      <li class="name">
+      <h1 class="show-for-small-only"><a href="{{ site.baseurl }}/" class="icon-tree"> {{ site.title }}</a></h1>
+    </li>
+       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Navigation" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Navigation</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+      <ul class="left">
+        {% for link in site.data.navigation %}
+          {% if link.side == 'left' %}
+            {% include navigation_link.html link=link %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+      <ul class="right">
+        {% for link in site.data.navigation %}
+          {% if link.side == 'right' %}
+            {% include navigation_link.html link=link %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </section>
+  </nav>
+</div>
