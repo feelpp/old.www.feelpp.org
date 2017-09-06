@@ -12,3 +12,9 @@ prudhomm: # replace this with your info
   email: christophe.prudhomme@cemosis.fr
   twitter: "@prudhomm"
 # you can add more authors here
+
+mszopos:
+  name: "Marcela Szopos"
+  siterole: "author"
+  uri: http://www-irma.u-strasbg.fr/~szopos/
+  email: mszopos@math.unistra.fr
