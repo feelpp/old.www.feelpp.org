@@ -31,7 +31,7 @@ The first poster presents the results we obtained on _Comparative study between 
 This work is part of the validation effort initiated during link:https://hal.archives-ouvertes.fr/CEMOSIS/tel-01361722v1[Cecile Daversin PhD].
 
 .Poster presented at MT15 by link:/team/trophime[Christophe Trophome (CNRS/LNCMI)]
-image::conferences/2017/mt25/posterCT-600.png[caption="Poster presented at MT15",float="left",width=300,link=/images/conferences/2017/mt25/posterCT.pdf]
+image::conferences/2017/mt25/posterCT-600.png[float="left",width=300,link=/images/conferences/2017/mt25/posterCT.pdf]
 
 More precisely it concerns Magnetostatic Validation: a first experimental campaign was carried out on actual magnet site confirms the 3D behaviour of the magnetic field predicted by 3D simulations on the exit of the magnets.
 Since the precision of the experimental setup was questionnable, we have performed a second campaign on the low field test bench where the 3D Hall probe positioning is more precise and partly automated.
@@ -45,7 +45,7 @@ and gain confidence in our model.
 == Towards real time computation of 3D magnetic field
 
 .Poster presented at MT15 by link:/team/hild[Romain Hild (Unistra/IRMA/Cemosis)]
-image::conferences/2017/mt25/posterRH-600.png[caption="Poster presented at MT15",float="right",width=300,link=/images/conferences/2017/mt25/posterRH.pdf]
+image::conferences/2017/mt25/posterRH-600.png[float="right",width=300,link=/images/conferences/2017/mt25/posterRH.pdf]
 
 The other poster, _Towards real time computation of 3D magnetic field in parametrized Polyhelix magnets using a reduced basis Biot-Savart model_, shows the idea to use the reduced basis method to compute efficiently the magnetic field for both experimental and geometric parameters.
 This allows the visualization in real time of the magnetic field, or other applications involving many queries, such as optimization.
