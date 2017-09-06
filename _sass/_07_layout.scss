@@ -51,7 +51,15 @@ body.video cite { color: #fff; }
 
     [class^='icon-']:before, [class*=' icon-']:before {
         margin-right: rem-calc(8);
+        font-size: rem-calc(20);
     }
+    li img {
+        width: rem-calc(20);
+        height: rem-calc(20);
+        max-width: initial;
+        margin-right: rem-calc(8);
+    }
+
 }
 
 

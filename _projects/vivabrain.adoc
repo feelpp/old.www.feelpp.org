@@ -8,7 +8,7 @@ header:
   image_fullwidth: header_unsplash_12.jpg
 images:
   icon: projects/vivabrain/vivabrain.png
-  icon_small: projects/vivabrain/vivabrain.png
+  icon_small: projects/vivabrain/vivabrain-128x128.png
   screenshots:
     - url: projects/vivabrain/H1H8_B3D.jpg
       title: "Magnet Study"

@@ -34,10 +34,15 @@
   url: /portfolio/
   side: left
   dropdown:
-  - special: portfolio
+  - title: Entreprises
+    dropdown:
+       - special: portfolio-entreprise
+  - title: Multi-Disciplinary
+    dropdown:
+       - special: portfolio-multi-disciplinary
 
 - title: Documentation
-  icon: bookmark
+  icon: open-book
   url: "http://book.feelpp.org"
   side: left
   dropdown:
@@ -53,8 +58,21 @@
   url: "/blog/"
   side: left
   dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+  # - title: Categories
+  #   icon: archive
+  #   url: /blog/category/
+  #   dropdown:
+  #   - special: blog-categories
+  # - title: Tags
+  #   icon: price-tag
+  #   url: /blog/tags/
+  #   dropdown:
+  #   - special: blog-tags
+  - title: Archive
+    icon: back-in-time
+    url: /blog/archive/
+    dropdown:
+    - special: blog-years
 
 - title: "Search"
   icon: magnifying-glass
