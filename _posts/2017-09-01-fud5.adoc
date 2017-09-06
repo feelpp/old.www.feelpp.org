@@ -28,7 +28,7 @@ The 5th Feel++ User days are sponsored by
  - link:http://www.cemosis.fr[Cemosis], the Center for Mathematical
    Modeling and Simulation in Strasbourg,
 
- - the EU EINFRA H2020 project MSO4SC
+ - the EU EINFRA H2020 project link:http://mso4sc.eu[MSO4SC]
  
  - the ANR Project http://www.vivabrain.fr[VIVABRAIN]
 
@@ -43,13 +43,50 @@ We have special guests for these FUD 5.0.
  - Gauther Follain
  - Charles Pivot
 
+== Programme
 
-The full programme is link:https://docs.google.com/spreadsheets/d/1D8_63689yngxKBF0O7-8xJkB9d_kex5DMnXtMcrISEk/edit?usp=sharing[here].
+
+=== Sept 11
+    
+[format="csv", options="header",grid=rows,cols="1,1,2"]
+.Programme of Sept 11
+|===
+include::fud5-sept11.csv[]
+|===
+
+=== Sept 12
+
+[format="csv", options="header",grid=rows,cols="1,1,2"]
+.Programme of Sept 12
+|===
+include::fud5-sept12.csv[]
+|===
+
+=== Sept 13
+    
+[format="csv", options="header",grid=rows,cols="1,1,2"]
+.Programme of Sept 13
+|===
+include::fud5-sept13.csv[]
+|===
+
+=== Sept 14
+
+[format="csv", options="header",grid=rows,cols="1,1,2"]
+.Programme of Sept 14
+|===
+include::fud5-sept14.csv[]
+|===
+
+=== Social event
+
+There will be a Feel++ User Dinner on Sept 14 evening.
+
 
 == Free (but Mandatory) Registration
 
-Registration is free but mandatory for logistic reasons(breaks,
-lunches and social event on September 14). The deadline is September, 8, 2017 at noon
+Registration is free but mandatory for logistic reasons(breaks, lunches and social event on September 14).
+The registration deadline is September, 8, 2017 at noon
 
 ++++
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdFz8dsrT-BHR2gRJV_pep7eVyGD7QlqOQi5498BklhWtLZjw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
