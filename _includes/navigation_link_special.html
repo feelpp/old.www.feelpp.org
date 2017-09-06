@@ -2,7 +2,7 @@
 {% when 'portfolio-entreprise' %}
 	{% for project in site.projects %}{% if project.published and project.type == 'entreprise' %}
 		<li{% if project.url == page_url %} class="active"{% endif %}>
-			<a href="{{ site.baseurl }}{{ project.url }}">
+			<a href="http://www.cemosis.fr/projects/{{ project.title | slugify }}">
 				<img src="{{ site.urlimg }}{{ project.images.icon_small }}" width="1.25rem"/>{{ project.title }}
 			</a>
 		</li>
@@ -10,7 +10,7 @@
 {% when 'portfolio-multi-disciplinary' %}
 	{% for project in site.projects %}{% if project.published and project.type == 'multi-disciplinary' %}
 	<li{% if project.url == page_url %} class="active"{% endif %}>
-		<a href="{{ site.baseurl }}{{ project.url }}">
+		<a href="http://www.cemosis.fr/projects/{{ project.title | slugify }}">
 			<img src="{{ site.urlimg }}{{ project.images.icon_small }}" width="1.25rem"/>{{ project.title }}
 		</a>
 	</li>
