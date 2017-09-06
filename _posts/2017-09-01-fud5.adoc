@@ -38,17 +38,14 @@ The 5th Feel++ User days are sponsored by
 
 We have special guests for these FUD 5.0.
 
- - Frédéric Bertrand
- - Jacky Goetz
- - Gauther Follain
- - Charles Pivot
-
-== Programme
-
+ - Frédéric Bertrand (Unistra,IRMA)
+ - Jacky Goetz (Inserm)
+ - Gauther Follain (Unistra)
+ - Charles Pivot (PPRIME)
 
 === Sept 11
     
-[format="csv", options="header",grid=rows,cols="1,1,2"]
+[format="csv", options="header",grid=rows,cols="1,2,2"]
 .Programme of Sept 11
 |===
 include::fud5-sept11.csv[]
@@ -56,7 +53,7 @@ include::fud5-sept11.csv[]
 
 === Sept 12
 
-[format="csv", options="header",grid=rows,cols="1,1,2"]
+[format="csv", options="header",grid=rows,cols="1,2,2"]
 .Programme of Sept 12
 |===
 include::fud5-sept12.csv[]
@@ -64,7 +61,7 @@ include::fud5-sept12.csv[]
 
 === Sept 13
     
-[format="csv", options="header",grid=rows,cols="1,1,2"]
+[format="csv", options="header",grid=rows,cols="1,2,2"]
 .Programme of Sept 13
 |===
 include::fud5-sept13.csv[]
@@ -72,7 +69,7 @@ include::fud5-sept13.csv[]
 
 === Sept 14
 
-[format="csv", options="header",grid=rows,cols="1,1,2"]
+[format="csv", options="header",grid=rows,cols="1,2,2"]
 .Programme of Sept 14
 |===
 include::fud5-sept14.csv[]
