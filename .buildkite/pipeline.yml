@@ -4,11 +4,11 @@ steps:
    agents:
      asciidoctor: true
    env:
-     PROJECT: www2.feelpp.org
+     PROJECT: www.feelpp.org
  - name: ':rocket: :book:'
    command: .buildkite/steps/deploy.sh
    branches: master
    agents:
      asciidoctor: true
    env:
-     PROJECT: www2.feelpp.org
+     PROJECT: www.feelpp.org
