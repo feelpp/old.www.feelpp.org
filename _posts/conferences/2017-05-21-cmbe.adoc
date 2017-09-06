@@ -1,0 +1,32 @@
+---
+category: conference
+tags:
+  - feelpp
+  - event
+header:
+  image_fullwidth: header_unsplash_workshop.jpg
+---
+= News on CMBE 2017:
+:page-layout: page
+:page-date: 2017-05-21
+:page-author: mszopos
+:page-title:  News on CMBE 2017
+:page-subheadline:  "[cmbe2017]"
+:page-teaser: "The conference to be for Computational and Mathematical Biomedical Engineering"
+:page-liquid:
+:page-toc: true
+:toc:
+
+
+We presented the results we obtained on the validation against experimental data of the CFD framework we are developing in Feel+:
+
+"High order finite element simulations for fluid dynamics validated by experimental data from the FDA benchmark nozzle model" +
+https://hal.archives-ouvertes.fr/hal-01429685v2
+
+in the CMBE 2017 mini-symposium "Modeling Cardiovascular Devices: Design, Testing & Patient-Specific Applications" in Pittsburgh, PA:
+
+http://www.compbiomed.net/getfile.php?type=13/site_documents&id=CMBE17-MS10.pdf
+
+It was an amazing conference, with prestigious invited speakers, 26 mini-symposia and 6 standard sessions covering a broad spectrum of computational and mathematical modeling approaches applied to biological problems:
+
+http://www.compbiomed.net/2017/conference-programme.htm
