@@ -3,7 +3,7 @@
 	{% for project in site.projects %}{% if project.published and project.type == 'entreprise' %}
 		<li{% if project.url == page_url %} class="active"{% endif %}>
 			<a href="{{ site.baseurl }}{{ project.url }}">
-				<img src="{{ site.urlimg }}{{ project.images.icon_small }}" />{{ project.title }}
+				<img src="{{ site.urlimg }}{{ project.images.icon_small }}" width="1.25rem"/>{{ project.title }}
 			</a>
 		</li>
 	{% endif %}{% endfor %}
@@ -11,7 +11,7 @@
 	{% for project in site.projects %}{% if project.published and project.type == 'multi-disciplinary' %}
 	<li{% if project.url == page_url %} class="active"{% endif %}>
 		<a href="{{ site.baseurl }}{{ project.url }}">
-			<img src="{{ site.urlimg }}{{ project.images.icon_small }}" />{{ project.title }}
+			<img src="{{ site.urlimg }}{{ project.images.icon_small }}" width="1.25rem"/>{{ project.title }}
 		</a>
 	</li>
 	{% endif %}{% endfor %}
