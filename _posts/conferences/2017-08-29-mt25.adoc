@@ -14,29 +14,38 @@ header:
 :page-subheadline:  "[mt252017]"
 :page-teaser: "The conference to be for Magnet Technologies"
 :page-liquid:
-:page-toc: true
-:toc:
 
-We presented two posters at the 25th Magnet Technologies conference which took place in Amsterdam. +
+We presented two posters at the 25th Magnet Technologies conference which took place in Amsterdam. 
+
+== MT25
 
 This conference is held every 2 years and present an overview of the main developments and trends in Magnet Technology.
 The posters and porals are mainly devoted to superconductor magnets (LTS or HTS) if we except the session on High Field Magnets.
 The main activities are driven by the fusion community (ITER and future projects DEMO) and the accelerator community (mainly CERN and also Hadron therapy facilities).
 
+== Comparative study between in-situ measurements and computational modeling
 
-// In terms of modeling and simulation most of the attendents are using commercial software (Comsol, Ansys) for EM and Thermo/Mechanical calculations.
-// A 
+The first poster presents the results we obtained on _Comparative study between in-situ measurements and a 3D efficient model for the computation of magnetic fields in High Field Polyhelix magnets_. 
+This work is part of the validation effort initiated during link:https://hal.archives-ouvertes.fr/CEMOSIS/tel-01361722v1[Cecile Daversin PhD].
 
+image::conferences/2017/mt25/posterCT-600.png[float="left",width=300]
 
-The first poster presents the results we obtained on _Comparative study between in-situ measurements and a 3D efficient model for the computation of magnetic fields in High Field Polyhelix magnets_. +
-image:{imagesdir}/conferences/2017/mt25/posterCT.pdf[]. This work is part of the validation effort initiated during Cecile Daversin PhD (ref?). More precisely it concerns Magnetostatic Validation:
-a first experimental campaign was carried out on actual magnet site confirms the 3D behaviour of the magnetic field predicted by 3D simulations on the exit of the magnets. Since the precision of
-the experimental setup was questionnable, we have performed a second campaign on the low field test bench where the 3D Hall probe positioning is more precise and partly automated. The obtained results
-confirm the simulation results even if there are some area where the agreement between measurements and calculations are not good. However in these areas the magnetic field profile is almost Axisymetrical.
-The precision of the measurements may be not sufficient. Further experimental campaign are planed on magnet site with higher current and more reliable mechanical setup to improve to the overall measure sensitivity
+More precisely it concerns Magnetostatic Validation: a first experimental campaign was carried out on actual magnet site confirms the 3D behaviour of the magnetic field predicted by 3D simulations on the exit of the magnets.
+Since the precision of the experimental setup was questionnable, we have performed a second campaign on the low field test bench where the 3D Hall probe positioning is more precise and partly automated.
+
+The obtained results confirm the simulation results even if there are some area where the agreement between measurements and calculations are not good.
+However in these areas the magnetic field profile is almost Axisymetrical.
+The precision of the measurements may be not sufficient.
+Further experimental campaign are planed on magnet site with higher current and more reliable mechanical setup to improve to the overall measure sensitivity
 and gain confidence in our model.
 
-The other poster, _Towards real time computation of 3D magnetic field in parametrized Polyhelix magnets using a reduced basis Biot-Savart model_, shows the idea to use the reduced basis method to compute efficiently the magnetic field for both experimental and geometric parameters. This allow the visualization in real time of the magnetic field, or other applications involving many queries, such as optimization.
-image:{imagesdir}/conferences/2017/mt25/posterCT.pdf[]
+== Towards real time computation of 3D magnetic field
+
+image::conferences/2017/mt25/posterCT-600.png[float="right",width=300]
+
+The other poster, _Towards real time computation of 3D magnetic field in parametrized Polyhelix magnets using a reduced basis Biot-Savart model_, shows the idea to use the reduced basis method to compute efficiently the magnetic field for both experimental and geometric parameters.
+This allows the visualization in real time of the magnetic field, or other applications involving many queries, such as optimization.
+
+
 
 http://mt-25.org/
