@@ -23,3 +23,10 @@ mszopos:
   siterole: "author"
   uri: http://www-irma.u-strasbg.fr/~szopos/
   email: mszopos@math.unistra.fr
+
+gdolle:
+  name: "Guillaume Dollé"
+  siterole: "author, developer, designer"
+  uri: pro.gdolle.com
+  email: gdolle@unistra.fr
+  twitter: @gdolle42
