@@ -1,0 +1,28 @@
+---
+category: conference
+tags:
+  - feelpp
+  - event
+header:
+  image_fullwidth: header_unsplash_workshop.jpg
+---
+= News on MT25 2017:
+:page-layout: page
+:page-date: 2017-08-29
+:page-author: romainhild
+:page-title:  News on MT25 2017
+:page-subheadline:  "[mt252017]"
+:page-teaser: "The conference to be for Magnet Technologies"
+:page-liquid:
+:page-toc: true
+:toc:
+
+We presented two posters at the 25th Magnet Technologies conference which took place in Amsterdam. +
+
+The first poster presents the results we obtained on _Comparative study between in-situ measurements and a 3D efficient model for the computation of magnetic fields in High Field Polyhelix magnets_. +
+image:{imagesdir}/conferences/2017/mt25/posterCT.pdf[]
+
+The other poster, _Towards real time computation of 3D magnetic field in parametrized Polyhelix magnets using a reduced basis Biot-Savart model_, shows the idea to use the reduced basis method to compute efficiently the magnetic field for both experimental and geometric parameters. This allow the visualization in real time of the magnetic field, or other applications involving many queries, such as optimization.
+image:{imagesdir}/conferences/2017/mt25/posterCT.pdf[]
+
+http://mt-25.org/
