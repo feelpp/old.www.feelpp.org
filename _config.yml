@@ -38,7 +38,7 @@ improve_content: https://github.com/feelpp/book.feelpp.org/edit/master
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'http://www2.feelpp.org/images/'
+urlimg: 'http://www.feelpp.org/images/'
 
 
 # Logo size is 600x80 pixels
