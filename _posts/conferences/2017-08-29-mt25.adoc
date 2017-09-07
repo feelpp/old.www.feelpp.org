@@ -52,6 +52,7 @@ This allows the visualization in real time of the magnetic field, or other appli
 
 == Sponsors
 
+This work has been sponsored by 
 
 image:logos/logo_cemosis.png[height="128"] image:logos/logo_irmia.png[height="128"] image:logos/logo_anr.png[height="128"]
 
