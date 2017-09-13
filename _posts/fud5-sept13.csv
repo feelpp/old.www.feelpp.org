@@ -8,12 +8,12 @@ Timeline,9/13/2017,Title
 11:30-12:00,"C. Prud'homme
 V. Chabannes",Reduced basis methodology and technology in Feel++
 12:00-13:30,Lunch break,
-13:30-14:15,Lorenzo Sala,Multiphysic modeling of the Eye using Feel++
-14:15-14:45,"Romain Hild (UdS/IRMA, LNCMI, CeMoSiS)",Contributions to high field magnet modeling using Bio-Savart and Reduced Basis methods
-14:45-15:00,Break,
-15:00-15:30,"L. Sala
-R. Hild",HDG Methods in Feel++: Basic components
-15:30-16:00,"L. Sala
+13:30-14:15,"L. Sala
+R. Hild","HDG Methods in Feel++: Basic components"
+14:15-14:45,"L. Sala
 R. Hild","HDG Toolbox in Feel++: mathematical formulations, results and implementation "
+14:45-15:00,Break,
+15:00-15:30,"Romain Hild (UdS/IRMA, LNCMI, CeMoSiS)","Contributions to high field magnet modeling using Bio-Savart and Reduced Basis methods"
+15:30-16:00,"Lorenzo Sala (Unistra,CeMoSiS)",Multiphysic modeling of the Eye using Feel++
 16:00-16:15,break,
 16:15-17:00,C Pivot (PPRIME),Flow control with Feel++
