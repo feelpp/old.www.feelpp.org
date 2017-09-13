@@ -1,0 +1,35 @@
+---
+category: workshop
+tags:
+  - feelpp
+  - event
+  - fud
+header:
+  image_fullwidth: header_unsplash_workshop.jpg
+---
+= 5-th Feel++ Users Day 2
+:page-layout: page
+:page-date: 2017-09-12
+:page-author: prudhomm
+:page-title:  5th Feel++ User Day 2
+:page-subheadline:  "[fud-5]"
+:page-teaser: "The 5th Feel++ User Day 2 page"
+:page-liquid:
+:page-toc: true
+:toc:
+:feelpp: Feel++
+
+The second day is already over with an presentations on collaborations and applications using {feelpp}
+as well as a tutorial on Salome.
+
+On Day 3, we start talks about  numerical methods for partial differential equations and in particular stabilisation methods, shock capturing methods, slip boundary conditions using Lagrange multipliers, reduced basis for multiphysic and saddle point problems, empirical interpolation
+including the discrete version and finally hybrid discontinuous Galerkin methods. These talks will be given by JB Wahl, Romain Hild and Lorenzo Sala.
+
+There will be also applications talks that illustrate the methodology talks 
+
+* Charles Pivot from PPRIME present his Phd work on using {feelpp} for control in fluid dynamics
+* Romain Hild present the applications to high field magnets 
+* Lorenzo Sala present the applications to eye2brain
+* and Jean-Baptiste Wahl the application to turbulence simulation using RANS models 
+
+The full programme and information about the workshop are link:/workshop/fud5[here].
