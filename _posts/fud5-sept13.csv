@@ -11,7 +11,7 @@ V. Chabannes",Reduced basis methodology and technology in Feel++
 13:30-14:15,"L. Sala
 R. Hild",link:pdfs/hdg_fud.pdf[HDG Methods in Feel++: Basic components]
 14:15-14:45,"L. Sala
-R. Hild",link:pdfs/hdg_fud.pdf[HDG Toolbox in Feel++: mathematical formulations, results and implementation]
+R. Hild","link:pdfs/hdg_fud.pdf[HDG Toolbox in Feel++: mathematical formulations, results and implementation]"
 14:45-15:00,Break,
 15:00-15:30,"Romain Hild (UdS/IRMA, LNCMI, CeMoSiS)",link:pdfs/hifimagnet_crb.pdf[Contributions to high field magnet modeling using Bio-Savart and Reduced Basis methods]
 15:30-16:00,"Lorenzo Sala (Unistra,CeMoSiS)",Multiphysic modeling of the Eye using Feel++
