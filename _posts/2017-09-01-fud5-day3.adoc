@@ -7,13 +7,13 @@ tags:
 header:
   image_fullwidth: header_unsplash_workshop.jpg
 ---
-= 5-th Feel++ Users Day 2
+= 5-th Feel++ Users Day 3
 :page-layout: page
-:page-date: 2017-09-12
+:page-date: 2017-09-13
 :page-author: prudhomm
-:page-title:  5th Feel++ User Day 2
+:page-title:  5th Feel++ User Day 3
 :page-subheadline:  "[fud-5]"
-:page-teaser: "The 5th Feel++ User Day 2 page"
+:page-teaser: "The 5th Feel++ User Day 3"
 :page-liquid:
 :page-toc: true
 :toc:
