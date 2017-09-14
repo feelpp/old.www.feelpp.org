@@ -40,6 +40,6 @@ The full programme and information about the workshop are link:/workshop/fud5[he
 
 In link:http://www.cemosis.fr/projects/hemotumpp[HemoTum++], the postdoctorate of Thibaut Metivet and Phd of Francois Der Hovsepian is directly funded by the link:http://labex-irmia.u-strasbg.fr/[Labex IRMIA].
 
-In link:http://www.cemosis.fr/projects/eye2brain[Eye2Brain], the Phd thesis of Lorenzo Sala and Philippe Ricka are funded thanks to the Ministry of Research and Higher Education.
+In link:http://www.cemosis.fr/projects/eye2brain[Eye2Brain], the Phd thesis of Lorenzo Sala and Philippe Ricka are funded thanks to the Ministry of Research and Higher Education. Moreover link:http://mso4sc.eu[MSO4SC] our EU E-INFRA H2020 funds the our developments in providing some information unavailable from measurements to ophthalmologists through numerical simulations.
 
 
