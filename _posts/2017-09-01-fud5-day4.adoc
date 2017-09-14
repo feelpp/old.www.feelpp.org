@@ -1,0 +1,39 @@
+---
+category: workshop
+tags:
+  - feelpp
+  - event
+  - fud
+header:
+  image_fullwidth: header_unsplash_workshop.jpg
+---
+= 5-th Feel++ Users Day 4
+:page-layout: page
+:page-date: 2017-09-14
+:page-author: prudhomm
+:page-title:  5th Feel++ User Day 4
+:page-subheadline:  "[fud-5]"
+:page-teaser: "The 5th Feel++ User Day 4"
+:page-liquid:
+:page-toc: true
+:toc:
+:feelpp: Feel++
+
+The third day is over with very nice presentations by link:/team/wahl[Jean-Baptiste], link:/team/dolle[Guillaume], link:/team/hild[Romain], and link:/team/lsala[Lorenzo]
+on advanced numerical methods for partial differential equations.
+
+On Day 4, we start with talks by biologist colleagues from link:http://www.goetzlab.com/[Jacky Getz research team] regarding our collaboration on the link:http://www.cemosis.fr/projects/hemotumpp[HemoTum++] project. In particular:
+
+* Jacky Goetz (Inserm U1113) will present _Blood flow forces metastatic extravasation_,
+* Gauthier Follain (Inserm U1113) will present the tools and processes used by biologist for processing their experimental data.
+* Vincent Chabannes will present the results of the numerical model developed jointly with Jacky's team
+
+The research findings of these first three presentations are available in our preprint link:http://www.biorxiv.org/search/jacky%252Bg.%252Bgoetz[here]. Then
+
+* Thibaut Metivet IRMA/Cemosis(IRMIA) talks about _Levelset methods for suspensions.Modelling red blood cells in flow_ This work which is going to be exploited in  HemoTum++.
+* Marcela Szopos (IRMA/Cemosis) will present _Multiscale mathematical and computational models for biofluids. Applications to the Eye2Brain project_
+* Frédéric Bertrand (IRMA/Cemosis) talks about Uncertainty Quantification
+
+and finally we have a tutorial on link:http://www.cemosis.fr/projects/angiotk/[AngioTK] by Francois DerHovsepian (IRMA/Cemosis(IRMIA)) and Vincent Chabannes. Francois worked formerly on the Vivabrain project on AngioTK and starts his Phd on the Hemotum++ project funded by IRMIA.
+
+The full programme and information about the workshop are link:/workshop/fud5[here].
