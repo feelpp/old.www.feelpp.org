@@ -5,5 +5,27 @@ name: Philippe Ricka
 advisor: [prudhomm, guidoboni, szopos]
 type: phd
 ---
-== Bio
+== Philippe Ricka
 :page-liquid:
+|===
+|Master Mathématiques Fondamentales|Université de Strasbourg
+|Agrégation de Mathématiques|Session 2016
+|Master Agrégation|Université de Strasbourg
+|Stage : simulation d'écoulement plan au travers d'une roche poreuse inhomogène|Institut de Physique du Globe de Strasbourg
+|Licence de Mathématiques, parcours Magistère|Université de Strasbourg
+|Mathématiques et Physique Approfondies|Université de Strasbourg
+|===
+
+Compétences en :
+
+* Mathématiques fondamentales
+** Topologie et géométrie algébriques
+** Algèbre, combinatoire
+** Analyse réelle et complexe
+** Analyse fonctionelle
+** EDO
+** Probabilités et Statistiques
+* Modélisation, calcul scientifique
+** MatLab/SciLab
+** GMSH
+** Paraview
