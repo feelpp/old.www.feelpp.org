@@ -1,0 +1,12 @@
+---
+title: boileaum
+function: Research Engineer
+name: Matthieu Boileau
+type: collaborator
+institute: CNRS
+country: France
+images:
+  icon: team/boileaum/boileaum-icon.png
+---
+== Bio
+:page-liquid:
