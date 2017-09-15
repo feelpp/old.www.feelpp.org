@@ -35,3 +35,10 @@ ricka:
   name: "Philippe Ricka"
   siterole: "author"
   email: pricka@math.unistra.fr
+
+lsala:
+  name: "Lorenzo Sala"
+  siterole: "Author"
+  uri: http://www-irma.u-strasbg.fr/~sala/
+  email: sala@math.unistra.fr
+
