@@ -6,7 +6,7 @@ type: phd
 email: gdolle@unistra.fr
 type: leader
 images:
-  icon: team/gdolle/gdolle-icon.jpeg
+  icon: team/gdolle/gdolle-icon.png
 institute: University of Strasbourg  
 ---
 == Bio
