@@ -8,24 +8,31 @@ type: phd
 == Philippe Ricka
 :page-liquid:
 |===
-|Master Mathématiques Fondamentales|Université de Strasbourg
-|Agrégation de Mathématiques|Session 2016
-|Master Agrégation|Université de Strasbourg
-|Stage : simulation d'écoulement plan au travers d'une roche poreuse inhomogène|Institut de Physique du Globe de Strasbourg
-|Licence de Mathématiques, parcours Magistère|Université de Strasbourg
-|Mathématiques et Physique Approfondies|Université de Strasbourg
+|Master's degree in Fundamental Mathematics|Université de Strasbourg
+|Agrégation in Mathematics|Year 2016
+|Master's degree Agrégation|Université de Strasbourg
+|Internship : planar flowing simulation through an inhomogeneous porous rock|Institut de Physique du Globe de Strasbourg
+|University degree in Mathematics, Magistère|Université de Strasbourg
+|MPA|Université de Strasbourg
 |===
 
-Compétences en :
+I am starting my PhD Thesis with Pr. C. Prud'homme about mathematical modeling and numerical simulations of cerebral blood flows and their interaction. This topic takes place within the Eye2Brain project and aims to developing a reliable and efficient computational framework allowing computer-aided interpretations of the clinical data. The two main goals are :
 
-* Mathématiques fondamentales
-** Topologie et géométrie algébriques
-** Algèbre, combinatoire
-** Analyse réelle et complexe
-** Analyse fonctionelle
-** EDO
-** Probabilités et Statistiques
-* Modélisation, calcul scientifique
+* quantitatively describe the fluid-dynamical and metabolic connections between the eye and the brain,
+* identify the main factors that influence these connections.
+
+
+
+My fields of competence are :
+
+* Fundamental Mathematics
+** Algebraic topology and geometry
+** Algebra, combinatorial
+** Real and complex calculus
+** Functional analysis
+** ODE
+** Probability and Statistics
+* Modeling, numerical analysis
 ** MatLab/SciLab
 ** GMSH
 ** Paraview
