@@ -2,7 +2,40 @@
 title: sala
 function: Phd Student
 name: Lorenzo Sala
+email: sala@math.unistra.fr
 type: phd
+images:
+  icon: team/sala/sala-icon.jpg
+institute: University of Strasbourg  
 ---
 == Bio
+== Lorenzo Sala
 :page-liquid:
+:page-layout: page
+
+image::team/sala/sala-icon.jpg[width=128,float="left"]
+
+== About me
+
+I graduated with a MSc in Mathematical Engineering with the Major in Computational Models in Electronics and Biomathematics at Politecnico di Milano 
+in Italy in 2016. 
+
+Then I moved to France, in particular to the Université de Strasbourg , and after a period of six months working on the project Eye2Brain I obtained a 
+scholarship for a position as PhD student in Applied Mathematics at the Université de Strasbourg.
+
+
+== Education
+
+- 2016 - present: PhD in Applied Mathematics at Université de Strasbourg.
+Thesis: __"Mathematical modelling and simulation of ocular blood flows and their interactions"__ 
+Advisors: C. Prud'homme, G. Guidoboni
+
+- 2013-2016: MS in Mathematical Engineering at Politecnico di Milano.
+Thesis: __"A Cellular Scale Model of Aqueous Humour Production"__ 
+Advisors: R. Sacco, A.G. Mauri, G. Guidoboni.
+
+- 2010-2013: BS in Mathematical Engineering at Politecnico di Milano.
+Final Presentation: __"Decision Support System for the design of a ski resort"__ 
+Advisor: F. Malucelli.
+
+ 
