@@ -45,6 +45,38 @@ a:active {
     color: darken( $ci-1, 20% );
 }
 
+.no-adorn, .no-adorn:hover, .no-adorn:visited {
+    border: 0;
+    text-decoration: none;
+}
+
+a:not([href]), a[href=''] {
+    cursor: default;
+}
+
+a[target='_blank']:after {
+    @extend .icon-export:before;
+    @extend sup;
+    display: inline;
+    margin-left: rem-calc(4);
+}
+
+@media print {
+    a {
+        border: none !important;
+        text-decoration: underline !important;
+    }
+    a[href]:after { // extend style in _type > @print to allow in-url breaks
+        word-wrap: break-word;
+        white-space: pre;
+        font-size: $base-font-size * 0.8;
+    }
+}
+
+.clickable {
+    cursor: $cursor-pointer-value;
+}
+
 
 
 /* Customize Foundation Typography

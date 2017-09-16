@@ -251,6 +251,72 @@ body.video cite { color: #fff; }
     color: $secondary-color;
   }
 
+#page-meta p {
+    white-space: normal;
+    text-align: initial;
+    font-size: rem-calc(13);
+}
+#page-meta a:hover {
+    color: $secondary-color;
+}
+#page-meta > p > * {
+    margin-right: rem-calc(20);
+}
+
+/*#page-meta span[class^='icon-'] {
+    white-space: nowrap;
+}*/
+#page-meta .meta-tags {
+    display: inline-block;
+    * {
+        margin-right: rem-calc(4);
+    }
+}
+
+.tags {
+    //width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    li {
+        height: rem-calc(36);
+        display: inline-block;
+    }
+}
+
+#sharer {
+  margin-bottom: $paragraph-margin-bottom;
+  .share-block {
+    padding: 0.25em !important;
+    .share-link {
+      display: block;
+      text-align: center;
+
+      text-decoration: none;
+      border: none;
+    }
+    a:after {
+      content: '';
+    }
+  }
+}
+
+#post-nav {
+  margin-bottom: $paragraph-margin-bottom;
+}
+
+@media only screen {
+  article[itemscope] > header {
+    border-bottom: 2px ridge $primary-color;
+    margin-bottom: $paragraph-margin-bottom;
+  }
+
+  article[itemscope] > footer {
+    margin-top: $paragraph-margin-bottom;
+    border-top: 2px ridge $primary-color;
+    padding-top: $paragraph-margin-bottom;
+  }
+}
 
 
 /* Jump to top
