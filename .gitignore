@@ -4,6 +4,6 @@ _site/
 *~
 .bundle
 /Gemfile.lock
-/images/conferences/2017/mt25/BulkResizePhotos.com.html
-/images/conferences/2017/mt25/ResizedPhotos.0 (1).zip
-/images/projects/4fastsim/ResizedPhotos.0.zip
+BulkResizePhotos.com.html
+*.zip
+*toto
