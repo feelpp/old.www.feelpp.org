@@ -7,7 +7,7 @@ type: collaborator
 institute: CNR Pavia
 country: Italy
 images:
-  icon: team/bertoluzza/bertoluzza-icon.jpg
+  icon: team/bertoluzza/bertoluzza-icon.png
 ---
 == Bio
 :page-liquid:

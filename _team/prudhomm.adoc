@@ -5,7 +5,7 @@ name: Christophe Prud'homme
 email: christophe.prudhomme@feelpp.org
 type: leader
 images:
-  icon: team/prudhomm/prudhomm-icon.jpeg
+  icon: team/prudhomm/prudhomm-icon.png
 institute: University of Strasbourg  
 ---
 == Christophe Prud'Homme

@@ -5,7 +5,7 @@ name: Lorenzo Sala
 email: sala@math.unistra.fr
 type: phd
 images:
-  icon: team/sala/sala-icon.jpg
+  icon: team/sala/sala-icon.png
 institute: University of Strasbourg  
 ---
 == Bio

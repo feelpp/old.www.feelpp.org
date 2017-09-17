@@ -1,8 +1,10 @@
 ---
-title: fdh
+title: francoisdh
 function: Phd Student
 name: Francois Der Hovsepian
 type: phd
+images:
+  icon: team/francoisdh/francoisdh-icon.png
 ---
 == Bio
 :page-liquid:

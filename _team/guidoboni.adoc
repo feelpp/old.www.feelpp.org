@@ -6,6 +6,8 @@ email: guidobonig@missouri.edu
 type: collaborator
 institute: University of Missouri, Saint Louis
 country: USA
+images:
+  icon: team/guidoboni/guidoboni-icon.png
 ---
 == Bio
 :page-liquid:

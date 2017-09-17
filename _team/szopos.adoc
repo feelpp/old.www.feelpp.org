@@ -5,6 +5,8 @@ name: Marcela Szopos
 email: szopos@math.unistra.fr
 type: collaborator
 institute: University of Strasbourg
+images:
+  icon: team/szopos/szopos-icon.png
 ---
 == Bio
 :page-liquid:

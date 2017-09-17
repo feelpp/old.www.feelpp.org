@@ -4,6 +4,8 @@ function: Phd Student
 name: Philippe Ricka
 advisor: [prudhomm, guidoboni, szopos]
 type: phd
+images:
+  icon: team/ricka/ricka-icon.png
 ---
 == Philippe Ricka
 :page-liquid:
