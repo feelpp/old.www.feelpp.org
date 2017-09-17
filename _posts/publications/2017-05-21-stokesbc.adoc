@@ -3,7 +3,7 @@ category: publication
 tags:
   - feelpp
   - publication
-  - 
+  - article
 header:
   image_fullwidth: header_unsplash_publication.jpg
 ---
