@@ -4,7 +4,7 @@ tags:
   - feelpp
   - event
 header:
-  image_fullwidth: header_unsplash_workshop.jpg
+  image_fullwidth:  conferences/2017/esbita17/logoESB-ITA2017-768x588.png
 ---
 = News on ESB-ITA 2017
 :page-layout: page

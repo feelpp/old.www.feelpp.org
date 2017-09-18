@@ -10,6 +10,7 @@
   dropdown:
    - title: "Download"
      url: "/download/"
+     icon: download
 
 # - title: "Examples"
 #   url: "/examples/"
@@ -58,16 +59,16 @@
   url: "/blog/"
   side: left
   dropdown:
-  # - title: Categories
-  #   icon: archive
-  #   url: /blog/category/
-  #   dropdown:
-  #   - special: blog-categories
-  # - title: Tags
-  #   icon: price-tag
-  #   url: /blog/tags/
-  #   dropdown:
-  #   - special: blog-tags
+  - title: Categories
+    icon: archive
+    url: /blog/category/
+    dropdown:
+    - special: blog-categories
+  - title: Tags
+    icon: price-tag
+    url: /blog/tags/
+    dropdown:
+    - special: blog-tags
   - title: Archive
     icon: back-in-time
     url: /blog/archive/
@@ -83,6 +84,10 @@
   icon: v-card
   url: "/info/"
   side: right
+  dropdown:
+  - title: Team
+    icon: sitemap
+    url: /team/
 
 - title: "Contact"
   icon: mail

@@ -71,8 +71,8 @@
     border-bottom: 1px solid #fff;
   }
   .alert-box.terminal {
-    background: $grey-12; 
-    color: #fff; 
+    background: $grey-12;
+    color: #fff;
     border-color: scale-color($grey-12, $lightness: -14%);
     font-family: $font-family-monospace;
   }
@@ -147,4 +147,158 @@ img.lazy {
     -o-transition: opacity 0.7s;
     transition: opacity 0.7s;
     opacity: 1;
+}
+
+/* IDs
+------------------------------------------------------------------- */
+.showId[id]:hover:after,
+h1[id]:not(.noShowId):hover:after,
+h2[id]:not(.noShowId):hover:after,
+h3[id]:not(.noShowId):hover:after,
+h4[id]:not(.noShowId):hover:after,
+h5[id]:not(.noShowId):hover:after,
+h6[id]:not(.noShowId):hover:after,
+.env-development *[id]:not(.noShowId):not(.row):hover:after {
+    color: Gray;
+    content: '#' attr(id);
+    margin-left: 1em;
+    font-weight: normal;
+    position: absolute;
+}
+
+*:target:not([id^='fn:']):not([id^='fnref:']) {
+    &::before {
+        content: " ";
+        width: 0;
+        height: 0;
+
+        display: block;
+        padding-top: 50px;
+        margin-top: -50px;
+    }
+}
+
+/* Projects
+------------------------------------------------------------------- */
+section.project {
+    transition-duration: 0.2s;
+    outline: 1px ridge $footer-bg;
+    a p {
+        color: $text-color;
+        text-align: center;
+        -webkit-text-align-last: center;
+        -moz-text-align-last: center;
+        -ms-text-align-last: center;
+        text-align-last: center;
+    }
+    &:hover {
+        outline: 3px ridge $primary-color;
+        h3 {
+            color: $primary-color;
+        }
+        .no-touch & img {
+            @include filter(saturate(200%));
+        }
+    }
+    h3 {
+        transition-duration: 0.2s;
+        margin: 0;
+        height: $font-size-h3 * 2;
+        display: table;
+        width: 100%;
+
+        .center {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+        }
+    }
+    .no-touch & img {
+        transition-duration: 0.2s;
+    }
+    figure {
+        padding: 1em;
+        margin: 0;
+    }
+}
+
+/* Frontpage Widget
+------------------------------------------------------------------- */
+.frontpage-widget img {
+    transition-duration: .5s;
+    transition-property: all;
+    transform-origin: 50% 50%;
+    &:hover {
+        transform: scale(1.1) rotate(2deg) translateZ(0);
+        position: relative;
+        z-index: 1;
+    }
+}
+
+/* Tags
+------------------------------------------------------------------- */
+.quick-links > li > * {
+  display: initial;
+}
+.icon-alias-category::before {
+  @extend .icon-archive:before;
+  color: $grey-4;
+  $tag_shadow: black 0px 0px 2px;
+  text-shadow: $tag_shadow;
+  text-shadow: $tag_shadow, $tag_shadow;
+}
+.icon-alias-archive::before {
+  @extend .icon-calendar:before;
+  color: $grey-4;
+  $tag_shadow: black 0px 0px 2px;
+  text-shadow: $tag_shadow;
+  text-shadow: $tag_shadow, $tag_shadow;
+}
+.icon-alias-tag::before {
+  @extend .icon-price-tag:before;
+  color: $grey-4;
+  $tag_shadow: black 0px 0px 2px;
+  text-shadow: $tag_shadow;
+  text-shadow: $tag_shadow, $tag_shadow;
+}
+.tag {
+  $tag-size-base: 12;
+  $tag-size-count: 10;
+  $tag-size-height-max: $tag-size-base + $tag-size-count * $tag-size-count / $tag-size-count;
+  @include label($bg: $grey-11, $radius: true);
+  font-weight: bold;
+  font-size: rem-calc($tag-size-base + 0 * 0 / $tag-size-count);
+  margin-top: rem-calc(($tag-size-height-max - $tag-size-base) / 2);
+  margin-bottom: rem-calc(($tag-size-height-max - $tag-size-base) / 2);
+  background-color: $body-bg;
+  color: $text-color;
+  border: 2px solid $grey-11;
+  &:visited {
+      border: 2px solid $grey-11;
+  }
+  &:hover {
+    background-color: $grey-11;
+    color: white;
+  }
+  &:before {
+    @extend .icon-alias-tag::before;
+    padding-right: rem-calc(4);
+  }
+
+  .count {
+    font-size: .83em;
+    vertical-align: sub;
+    &:before {
+      content: '\a0';
+    }
+  }
+
+  @for $i from 1 through $tag-size-count {
+    &.tag-size-#{$i} {
+      $tag-size-height: $tag-size-base + $i * $i / $tag-size-count;
+      font-size: rem-calc($tag-size-height);
+      margin-top: rem-calc( ( $tag-size-height-max - $tag-size-height) / 2);
+      margin-bottom: rem-calc( ( $tag-size-height-max - $tag-size-height) / 2);
+    }
+  }
 }

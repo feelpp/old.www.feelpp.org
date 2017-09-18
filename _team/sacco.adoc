@@ -5,6 +5,8 @@ name: Riccardo Sacco
 type: collaborator
 institute: Politecnico di Milano
 country: Italy
+images:
+  icon: team/sacco/sacco-icon.png
 ---
 == Bio
 :page-liquid:

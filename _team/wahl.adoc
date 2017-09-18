@@ -3,6 +3,8 @@ title: wahl
 function: Phd Student
 name: Jean-Baptiste Wahl
 type: phd
+images:
+  icon: team/wahl/wahl-icon.png
 ---
 == Bio
 :page-liquid:

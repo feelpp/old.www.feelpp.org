@@ -1,0 +1,43 @@
+---
+title: metivet
+function: Post-doctoral researcher
+name: Thibaut Metivet
+email: metivet@math.unistra.fr
+type: leader
+institute: University of Strasbourg  
+images:
+  icon: team/metivet/metivet-icon.png
+---
+== Thibaut Metivet
+:page-liquid:
+:page-layout: page
+
+image::team/metivet/metivet-icon.png[width=128,float="left"]
+
+Post-doctoral researcher at the University of Strasbourg since July 2017.
+
+== RESEARCH INTERESTS
+
+I work on the mathematical modelling of biological flows, such as the rheology of flowing red blood cells and the adhesion and arrest of tumor cells in complex geometries. I also develop numerical tools to tackle the high-performance numerical simulations requested in this kind of problems.
+
+As such, I am involved in the Vivabrain ANR and the Hemotum++ projects. These projects provide great frameworks to develop new numerical approaches designed for the complexity of biofluids, and validate these methods with various data from both _in vitro_ and _in vivo_ experiments lead by biologists I closely collaborate with.
+
+==  APPOINTMENTS AND EDUCATION (in reverse chronological order)
+
+[cols="1,2",options="header"]
+|===
+| Dates | Appointment
+
+|2017-Present | Post-doctoral researcher at Institut de Recherche Mathématique Avancée in Strasbourg
+
+|2015-2017 | Post-doctoral researcher at Laboratoire Jean Kuntzmann and Laboratoire Interdisciplinaire de Physique in Grenoble (Saint Martin d'Hères)
+
+|2012-2015 | PhD in Theoretical and Mathematical Physics at Institut de Recherche sur les lois Fondamentales de l'Univers, CEA Saclay
+
+|2011-2012 | MASt in Applied Mathematics and Theoretical Physics, University of Cambridge, UK
+
+|2009-2012 | Élève-ingénieur at Ecole Centrale Paris
+
+|2009-2012 | Magistère de Physique Fondamentale, Université Paris-Sud (Paris-Saclay)
+|===
+ 

@@ -3,6 +3,8 @@ title: hild
 function: Phd Student
 name: Romain Hild
 type: phd
+images:
+  icon: team/hild/hild-icon.png
 ---
 == Bio
 :page-liquid:
