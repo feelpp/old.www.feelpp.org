@@ -1,0 +1,63 @@
+---
+category: conference
+tags:
+  - feelpp
+  - event
+header:
+  image_fullwidth: header_unsplash_workshop.jpg
+---
+= News on ESB-ITA 2017
+:page-layout: page
+:page-date: 2017-09-28
+:page-author: lsala
+:page-title:  News on ESB-ITA 2017
+:page-subheadline:  "[esbita2017]"
+:page-teaser: "The conference to be for Biomechanics with a thematic symposium on ocular biomechanics"
+:page-liquid:
+
+We will have an oral presentation and a poster at the VII Annual Meeting of the italian chapter 
+of the European Society of Biomechanics which will take place in Rome.
+
+== ESB-ITA 2017
+
+http://www.esb-ita.it/main/meetings/esb-ita17-%C2%A6-home/
+
+This conference is held every year and it is organized by The Italian Chapter of the European Society of Biomechanics.
+The thematic symposium on ocular biomechanics aims to bring together ophthalmologists and researchers working on the 
+biomechanics of the eye, in order to share experiences, ideas, methods and results.
+
+The general meeting will cover experimental and computational techniques for the study of the pathophysiological behaviour of biomechanical systems. 
+A broad spectrum of scales will be covered, ranging from the cellular, through the tissue, up to organ scale. 
+Medical devices and their interaction with living tissues will be also addressed. 
+Accordingly, a snapshot of actual trends of biomechanical research will be provided.
+
+Accepted extended abstracts submitted to the Thematic Symposium on Ocular Biomechanics will be collected in a special issue of the 
+Journal for Modeling in Ophthalmology.
+
+
+== Our contribution
+
+Our group has proposed two extended abstract:
+
+* [.underline]#L. Sala# , C. Prud’homme , M. Szopos , G. Guidoboni, __“Towards a full model for ocular biomechanics, fluid dynamics and hemodynamics”__; it has been accepted 
+as an oral presentation. 
+This contribution presents an ongoing work to implement a patient-specific mathematical virtual simulator for the eye. 
+The aim is to create a multiscale and multiphysics model for the description of ocular biomechanics, fluid dynamics and hemodynamics. 
+This instrument may serve to illustrate and estimate some clinically relevant parameters and predict their spatial and temporal evolution adopting forward-looking
+numerical techniques.
+
+* [.underline]#F. Stefanoni#, A. Harris, M. Szopos, C. Prud’homme, R. Sacco, D. Messenio, M.L. Costantino, G. Guidoboni, 
+__“Clinical assessment of intraocular pressure: a whole eye dynamic model”__; it has been accepted as a poster.
+The aim of this work is to provide a quantitative description of how geometrical and material properties of ocular tissues and fluids 
+influence intraocular pressure (IOP).
+
+== Sponsors
+
+This work has been partially supported by the Ministère de l'Enseignement supérieur et de la Recherche (France), NSF DMS-1224195, 
+a grant from Research to Prevent Blindness (RPB, NY, USA), the Chair Gutenberg funds of the Cercle Gutenberg (France), the Center for Modeling and Simulation
+in Strasbourg(Cemosis) and the Labex IRMIA (University of Strasbourg, France). 
+This project has finally received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 731063.
+
+
+image:logos/logo_cemosis.png[height="128"] image:logos/logo_irmia.png[height="128"]
+
