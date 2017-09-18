@@ -10,6 +10,7 @@
   dropdown:
    - title: "Download"
      url: "/download/"
+     icon: download
 
 # - title: "Examples"
 #   url: "/examples/"
@@ -83,6 +84,10 @@
   icon: v-card
   url: "/info/"
   side: right
+  dropdown:
+  - title: Team
+    icon: sitemap
+    url: /team/
 
 - title: "Contact"
   icon: mail
