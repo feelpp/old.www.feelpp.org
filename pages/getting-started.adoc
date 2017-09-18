@@ -6,12 +6,18 @@
 :page-header:  {image_fullwidth: "header_homepage_13.jpg"}
 :page-teaser: "This step-by-step guide helps you to start using Feel++."
 :page-subheadline: "A Step-by-Step Guide"
-include::../docs/includes/header.adoc[]
+include::../docs/includes/header_without_author.adoc[]
 
-. Install {docker}
+
+. link:https://docs.docker.com/engine/installation/[Install {docker}]
 . Follow the link:/download#docker[{feelpp} {docker} images download instructions]
-. Read the {docker} installation int the section link:http://book.feelpp.org/user-manual/#Docker[{feelpp} User Manual]
+. Learn about {feelpp} with the classical link:http://book.feelpp.org/user-manual/#learning_feel[Laplacian problem]
+. Execute the link:http://book.feelpp.org/user-manual/#testcases[quickstart laplacian] and then visualize the results
 
+
+NOTE: Install a _stable_ release of the Docker *Community Edition*
+
+TIP: Read the {docker} installation in the section link:http://book.feelpp.org/user-manual/#Docker[{feelpp} User Manual]
 
 [subs=attributes]
 ++++

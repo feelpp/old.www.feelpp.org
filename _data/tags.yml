@@ -2,23 +2,23 @@
 # tag-name:
 #   color: css-color (hashed colors need quotes)
 #   title: Alternative Display
-android:
-  title: "Android"
+feelpp:
+  title: "Feel++"
   color: '#A4C639'
-workshop:
-  title: "Workshop"
+event:
+  title: "Event"
   color: '#CC342D'
-github:
+publication:
   title: "GitHub"
   color: '#f5f5f5'
-jekyll:
+example:
   title: "Jekyll"
   color: '#fc0'
-git:
+fud:
   color: '#f44d27'
-liquid:
+blog:
   title: "Liquid"
   color: '#84BC48'
-google:
+jekyll:
   title: "Google"
   color: '#1A6EEF'

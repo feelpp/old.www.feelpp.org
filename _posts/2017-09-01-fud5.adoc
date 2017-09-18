@@ -44,7 +44,7 @@ We have special guests for these FUD 5.0.
 
  - Frédéric Bertrand (Unistra,IRMA)
  - Jacky Goetz (Inserm)
- - Gauther Follain (Unistra)
+ - Gautier Follain (Unistra)
  - Charles Pivot (PPRIME)
 
 === Sept 11
