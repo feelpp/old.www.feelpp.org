@@ -6,9 +6,9 @@ tags:
 header:
   image_fullwidth:  conferences/2017/esbita17/logoESB-ITA2017-768x588.png
 ---
-= News on ESB-ITA 2017
+= We are at ESB-ITA 2017
 :page-layout: page
-:page-date: 2017-09-28
+:page-date: 2017-09-18
 :page-author: lsala
 :page-title:  News on ESB-ITA 2017
 :page-subheadline:  "[esbita2017]"
