@@ -3,6 +3,11 @@ category: conference
 tags:
   - feelpp
   - event
+  - ocular virtual simulator
+  - HDG
+  - multiphysics
+  - glaucoma
+  - intraocular pressure
 header:
   image_fullwidth:  conferences/2017/esbita17/logoESB-ITA2017-768x588.png
 ---
@@ -53,11 +58,17 @@ influence intraocular pressure (IOP).
 
 == Sponsors
 
+
+The poster has been realized with a collaboration with Politecnico di Milano.
+
 This work has been partially supported by the Ministère de l'Enseignement supérieur et de la Recherche (France), NSF DMS-1224195, 
 a grant from Research to Prevent Blindness (RPB, NY, USA), the Chair Gutenberg funds of the Cercle Gutenberg (France), the Center for Modeling and Simulation
 in Strasbourg(Cemosis) and the Labex IRMIA (University of Strasbourg, France). 
 This project has finally received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 731063.
 
+image:logos/logoUDS.png[height="128"]
+image:logos/logo_cemosis.png[height="128"] 
+image:logos/logo_irmia.png[height="128"] 
+image:logos/logo_polimi.png[height="128"]
 
-image:logos/logo_cemosis.png[height="128"] image:logos/logo_irmia.png[height="128"]
 
