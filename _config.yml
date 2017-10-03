@@ -79,6 +79,11 @@ exclude:
     - README.md
     - INSTALL.md
     - docs
+    - pages/benchmarks
+    - pages/clusters
+    - pages/man/*
+    - pages/0*
+    - pages/math/*
 
 # The language setting is used in /includes/header.html for html-settings
 language: 'en'

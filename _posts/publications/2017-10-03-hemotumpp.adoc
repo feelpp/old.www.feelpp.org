@@ -6,7 +6,7 @@ tags:
   - article
   - hemotum++
 header:
-  image_fullwidth: header_unsplash_publication.jpg
+  image_fullwidth: hemotumpp/fud5-zebrafish-tumors.png
 ---
 :hemotumpp: Hemotum++
 = New preprint on the {hemotumpp} project
@@ -20,9 +20,14 @@ header:
 :feelpp: Feel++
 
 
-Our work on _hemodynamic forces tuning the arrest, adhesion and extravasation of circulating tumor cells_ is available as preprint on biorxiv. 
-https://www.biorxiv.org/content/early/2017/08/31/183046 +
+Our work on _hemodynamic forces tuning the arrest, adhesion and extravasation of circulating tumor cells_ is available as preprint on biorxiv.
+
+https://www.biorxiv.org/content/early/2017/08/31/183046 
+
 This is a collaboration effort  with many people among which the leading team of link:http://www.goetzlab.com/[Jacky Goetz].
+
+== {feelpp} Highlights
+
 Regarding {feelpp}, the umbrella project is called link:http://www.cemosis.fr/projects/hemotumpp[{hemotumpp}].
 Our work involved modelling the geometry and the blood flow in the tail of the zebrafish in 3D.
 We used in particular our fluid-structure interaction toolbox to recover blood flow profiles at different location of the zebrafish vascular network and compare them with in-vivo measurements.
