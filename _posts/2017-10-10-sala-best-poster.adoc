@@ -43,9 +43,11 @@ a grant from Research to Prevent Blindness (RPB, NY, USA), the Chair Gutenberg f
 in Strasbourg(Cemosis) and the Labex IRMIA (University of Strasbourg, France). 
 This project has finally received funding thanks to MSO4SC from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 731063.
 
-image:logos/logoUDS.png[width="18%"]
-image:logos/logo_cemosis.png[width="18%"] 
-image:logos/logo_irmia.png[width="18%"] 
-image:logos/logo_polimi.png[width="18%"]
-image:logos/logo_mso4sc.png[width="18%"]
+image:logos/logoUDS.png[width="24%"]
+image:logos/logo_cemosis.png[width="24%"] 
+image:logos/logo_mizzou.png[width="24%"] +
+image:logos/logo_polimi.png[width="24%"]
+image:logos/logo_iupui.png[width="24%"] +
+image:logos/logo_irmia.png[width="24%",align="center"] 
+image:logos/logo_mso4sc.png[width="24%",align="center"]
 
