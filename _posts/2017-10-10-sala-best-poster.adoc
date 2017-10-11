@@ -1,0 +1,51 @@
+---
+category: conference
+tags:
+  - feelpp
+  - eye2brain
+  - award
+  - ocular virtual simulator
+  - HDG
+  - multiphysics
+  - glaucoma
+  - intraocular pressure
+header:
+  image_fullwidth:  eye2brain/header-eye2brain-1.png
+---
+= Lorenzo Sala receives Best poster Award from Doctorate School in Mathematics, Engineering and Computer Science 
+:page-layout: page
+:page-date: 2017-10-10
+:page-author: prudhomm
+:page-title:  Best poster award for Lorenzo Sala
+:page-subheadline:  "[cemosis2017]"
+:page-teaser: "Lorenzo Sala and the Eye2Brain project get the votes of the jury of the Doctorate School"
+:page-liquid:
+
+Lorenzo Sala is a Ph. D. candidate working in the Eye2brain project under the supervision of G. Guidoboni (U. Missouri, USA), M. Szopos (Cemosis,Unistra) and C. Prud'homme (Cemosis,Unistra). He was awarded the best poster prize from the Doctorate school MSII on Monday, October the 2nd.
+
+.Best poster award for Lorenzo Sala and the Eye2Brain project 
+image::eye2brain/poster-sala-eye2brain.png[width=300,link=/images/eye2brain/poster-sala-eye2brain.pdf]
+
+
+His thesis aims at achieving non-invasive access to ocular biomarkers, as surrogates of cerebral status, by developing mathematical models parametrized with patient-specific data to describe the fluid-dynamics and metabolic connections between the eye and the brain. 
+The complexity of this Eye2Brain system calls for a multiscale modeling approach, and the high computational cost and complex numerical analysis required are provided by Feel++.
+
+The results described in this poster are also very significant from a clinical viewpoint, being able to reproduce biomechanics and hemodynamics in various tissues of the eye.
+
+
+
+== Collaborators and Sponsors
+
+The poster has been realized with a collaboration with Politecnico di Milano.
+
+This work has been partially supported by the Ministère de l'Enseignement supérieur et de la Recherche (France), NSF DMS-1224195, 
+a grant from Research to Prevent Blindness (RPB, NY, USA), the Chair Gutenberg funds of the Cercle Gutenberg (France), the Center for Modeling and Simulation
+in Strasbourg(Cemosis) and the Labex IRMIA (University of Strasbourg, France). 
+This project has finally received funding thanks to MSO4SC from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 731063.
+
+image:logos/logoUDS.png[width="18%"]
+image:logos/logo_cemosis.png[width="18%"] 
+image:logos/logo_irmia.png[width="18%"] 
+image:logos/logo_polimi.png[width="18%"]
+image:logos/logo_mso4sc.png[width="18%"]
+

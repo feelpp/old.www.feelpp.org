@@ -84,6 +84,8 @@ exclude:
     - pages/man/*
     - pages/0*
     - pages/math/*
+    - pages/programming/*
+
 
 # The language setting is used in /includes/header.html for html-settings
 language: 'en'
