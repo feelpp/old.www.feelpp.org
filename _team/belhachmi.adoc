@@ -5,6 +5,8 @@ name: Zakaria Belhachmi
 type: collaborator
 institute: Université de Haute Alsace
 country: France
+images:
+  icon: team/belhachmi/belhachmi-icon.png
 ---
 == Bio
 :page-liquid:

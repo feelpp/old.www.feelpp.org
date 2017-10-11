@@ -8,7 +8,7 @@ header:
   image_fullwidth: header_unsplash_12.jpg
 images:
   icon: projects/eye2brain/eye2brain.png
-  icon_small: projects/eye2brain/eye2brain.png
+  icon_small: projects/eye2brain/eye2brain-128x128.png
   screenshots:
     - url: projects/eye2brain/H1H8_B3D.jpg
       title: "Magnet Study"

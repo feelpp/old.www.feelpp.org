@@ -8,6 +8,8 @@ script:
   head: >
     function rot5(c){return c.length>1?c.replace(/[0-9]/g, rot5):String.fromCharCode((c<="9"?57:57)>=(c=c.charCodeAt(0)+5)?c:c-10);}
     function rot13(c){return c.length>1?c.replace(/[a-zA-Z]/g, rot13):String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}
+header:
+  image_fullwidth: header_drop.jpg
 ---
 :page-liquid:
 :feelpp: Feel++

@@ -5,6 +5,8 @@ name: Christophe Trophime
 type: collaborator
 institute: Laboratoire des Champs Magnétiques Intenses, CNRS
 country: France
+images:
+  icon: team/trophime/trophime-icon.png
 ---
 == Bio
 :page-liquid:

@@ -65,7 +65,8 @@ paginate_path: "blog/page:num"   # Pagination path › Important for blog page i
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
-permalink: /:categories/:title/
+permalink: /blog/:year/:month/:title/
+#permalink: /:categories/:year/:title/
 highlight: rouge
 excerpt_separator: "<!--more-->"
 include: ['.htaccess']
@@ -78,6 +79,13 @@ exclude:
     - README.md
     - INSTALL.md
     - docs
+    - pages/benchmarks
+    - pages/clusters
+    - pages/man/*
+    - pages/0*
+    - pages/math/*
+    - pages/programming/*
+
 
 # The language setting is used in /includes/header.html for html-settings
 language: 'en'
@@ -126,7 +134,7 @@ defaults:
     scope:
       path: 'blog/category'
     values:
-      #permalink: /blog/:category/ # will be available in 3.0, see https://github.com/jekyll/jekyll/pull/3320
+      permalink: /blog/:category/ # will be available in 3.0, see https://github.com/jekyll/jekyll/pull/3320
       layout: blog_by_category
       breadcrumbs: true
       title_suffix: "category details"
@@ -299,3 +307,4 @@ asciidoctor:
     - pygments-linenums-mode=inline
     - icons=font
     - imagesdir=/images
+    - bibtex-file=bibliography/hemotumpp.bib

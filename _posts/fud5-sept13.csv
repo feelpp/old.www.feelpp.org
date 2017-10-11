@@ -1,6 +1,6 @@
 ,,
 Timeline,9/13/2017,Title
-9:00-9:30,JB Wahl,Stablisation methods for advection diffusion and incompressible Navier Stokes equations. Applications to multi-physic problems
+9:00-9:30,JB Wahl,link:pdfs/wahl_aero.pdf[Stablisation methods for advection diffusion and incompressible Navier Stokes equations. Applications to multi-physic problems]
 9:30-10:00,JB Wahl ,Towards turbulence modeling in Feel++ with RANS Models
 10:00-10:45,"Guillaume Dollé (UdS/IRMA, CeMoSiS)",Diffuse optical tomography for tumour detection: direct and inverse problems. Inverse problems with Feel++ 
 10:45-11:00,Break,
@@ -8,13 +8,12 @@ Timeline,9/13/2017,Title
 11:30-12:00,"C. Prud'homme
 V. Chabannes",Reduced basis methodology and technology in Feel++
 12:00-13:30,Lunch break,
-13:30-14:15,"Frédéric Bertrand
-C. Prud'homme","Uncertainty quantification using OpenTurns, applications with reduced basis"
-14:15-14:45,"Romain Hild (UdS/IRMA, LNCMI, CeMoSiS)",Contributions to high field magnet modeling using Bio-Savart and Reduced Basis methods
+13:30-14:15,"L. Sala
+R. Hild",link:pdfs/hdg_fud.pdf[HDG Methods in Feel++: Basic components]
+14:15-14:45,"L. Sala
+R. Hild","link:pdfs/hdg_fud.pdf[HDG Toolbox in Feel++: mathematical formulations, results and implementation]"
 14:45-15:00,Break,
-15:00-15:30,"L. Sala
-R. Hild",HDG Methods in Feel++: Basic components
-15:30-16:00,"L. Sala
-R. Hild","HDG Toolbox in Feel++: mathematical formulations, results and implementation "
+15:00-15:30,"Romain Hild (UdS/IRMA, LNCMI, CeMoSiS)",link:pdfs/hifimagnet_crb.pdf[Contributions to high field magnet modeling using Bio-Savart and Reduced Basis methods]
+15:30-16:00,"Lorenzo Sala (Unistra,CeMoSiS)",link:pdfs/FUD_5_Eye2Brain_webversion.pdf[Multiphysic modeling of the Eye using Feel++]
 16:00-16:15,break,
 16:15-17:00,C Pivot (PPRIME),Flow control with Feel++

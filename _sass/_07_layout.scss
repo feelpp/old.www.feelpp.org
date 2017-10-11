@@ -51,7 +51,15 @@ body.video cite { color: #fff; }
 
     [class^='icon-']:before, [class*=' icon-']:before {
         margin-right: rem-calc(8);
+        font-size: rem-calc(20);
     }
+    li img {
+        width: rem-calc(20);
+        height: rem-calc(20);
+        max-width: initial;
+        margin-right: rem-calc(8);
+    }
+
 }
 
 
@@ -243,6 +251,72 @@ body.video cite { color: #fff; }
     color: $secondary-color;
   }
 
+#page-meta p {
+    white-space: normal;
+    text-align: initial;
+    font-size: rem-calc(13);
+}
+#page-meta a:hover {
+    color: $secondary-color;
+}
+#page-meta > p > * {
+    margin-right: rem-calc(20);
+}
+
+/*#page-meta span[class^='icon-'] {
+    white-space: nowrap;
+}*/
+#page-meta .meta-tags {
+    display: inline-block;
+    * {
+        margin-right: rem-calc(4);
+    }
+}
+
+.tags {
+    //width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    li {
+        height: rem-calc(36);
+        display: inline-block;
+    }
+}
+
+#sharer {
+  margin-bottom: $paragraph-margin-bottom;
+  .share-block {
+    padding: 0.25em !important;
+    .share-link {
+      display: block;
+      text-align: center;
+
+      text-decoration: none;
+      border: none;
+    }
+    a:after {
+      content: '';
+    }
+  }
+}
+
+#post-nav {
+  margin-bottom: $paragraph-margin-bottom;
+}
+
+@media only screen {
+  article[itemscope] > header {
+    border-bottom: 2px ridge $primary-color;
+    margin-bottom: $paragraph-margin-bottom;
+  }
+
+  article[itemscope] > footer {
+    margin-top: $paragraph-margin-bottom;
+    border-top: 2px ridge $primary-color;
+    padding-top: $paragraph-margin-bottom;
+  }
+}
 
 
 /* Jump to top
@@ -312,7 +386,7 @@ body.video cite { color: #fff; }
   }
 }
 
-.social-icons {
+/*.social-icons {
     margin-bottom: 10px !important;
 
 // Beware of SCSS-Syntax here
@@ -331,8 +405,49 @@ body.video cite { color: #fff; }
       background: $subfooter-bg;
       color: #fff;
     }
-  }
+  }*/
+
+.social-icons li a {
+    font-size: rem-calc(10);
+    text-align: center;
+    color: $subfooter-color;
+    visibility: collapse;
+    width: 36px;
+    height: 36px;
+    &:hover {
+        color: #fff;
+        &:before {
+            color: #fff;
+            background: $subfooter-bg;
+        }
+    }
+    &:before {
+        font-size: rem-calc(23);
+        line-height: 1.5;
+        display: block;
+        visibility: visible;
+        width: 36px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        color: $subfooter-bg;
+        background: $subfooter-color;
+        text-shadow: none;
+    }
+    &:after {
+        display: none;
+    }
 }
+@media #{$large-up} {
+    .social-icons li a {
+        visibility: visible;
+        width: 55px;
+        height: auto;
+        margin-left: -18px;
+    }
+}
+
+//}
 
 
 

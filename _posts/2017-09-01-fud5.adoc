@@ -29,6 +29,10 @@ The 5th Feel++ User days are sponsored by
    Modeling and Simulation in Strasbourg,
 
  - the EU EINFRA H2020 project link:http://mso4sc.eu[MSO4SC]
+
+ - the Labex link:http://labex-irmia.u-strasbg.fr/[IRMIA]
+
+ - the Labex link:http://www.agence-maths-entreprises.fr/[AMIES]
  
  - the ANR Project http://www.vivabrain.fr[VIVABRAIN]
 
@@ -40,7 +44,7 @@ We have special guests for these FUD 5.0.
 
  - Frédéric Bertrand (Unistra,IRMA)
  - Jacky Goetz (Inserm)
- - Gauther Follain (Unistra)
+ - Gautier Follain (Unistra)
  - Charles Pivot (PPRIME)
 
 === Sept 11

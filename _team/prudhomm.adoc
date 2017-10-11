@@ -5,8 +5,60 @@ name: Christophe Prud'homme
 email: christophe.prudhomme@feelpp.org
 type: leader
 images:
-  icon: team/prudhomm/prudhomm-icon.jpeg
+  icon: team/prudhomm/prudhomm-icon.png
 institute: University of Strasbourg  
 ---
-== Bio
+== Christophe Prud'Homme
 :page-liquid:
+:page-layout: page
+
+image::team/prudhomm/prudhomm-icon.jpeg[width=128,float="left"]
+
+Professor at the University of Strasbourg since 2012, formerly at the University Grenoble-Alpes From 2006 to 2012.
+Director of the Center for Modeling and Simulation in Strasbourg.
+
+==  APPOINTMENTS (in reverse chronological order)
+
+[cols="1,2",options="header"]
+|===
+| Dates | Appointment
+
+|2013-Present |    Director, the Center of Modeling and Simulation of Strasbourg, France
+
+|2013-Present  |  Member of the executive committee of the Excellence Laboratory IRMIA
+
+|2012-Present |  Manager in charge, Scientific and High Performance Computing at National and European Level for the French Agency for Mathematics in Interaction Entreprises and Society 
+
+|2012-Present  |  Professor, Applied Mathematics University of Strasbourg, France
+
+|2010-2012 |   	Co-Director, MaiMoSiNE (Center Modeling and Simulation Nano-Sciences and Environment) in Grenoble, France
+
+|2006-2012 |  	Professor, Applied Mathematics, University of Joseph Fourier, Grenoble, France
+
+|2003-2006 |  	Post-Doctoral Fellow, École Polytechnique Fédérale de Lausanne, Switzerland
+
+|2001-2003 |  	Research scientist, Massachusetts Institute of Technology, Cambridge, MA, USA
+
+|2000-2001 |   	Post-Doctoral Fellow, Massachusetts Institute of Technology, Cambridge, MA, USA
+|===
+
+==  PROFESSIONAL PREPARATION (in chronological order)
+
+[cols="1,1",options="header"]
+|===
+| University | Diploma
+
+| University of Pierre et Marie Curie, Paris, France | Applied Mathematics B.S. and M.S., 1995
+
+| University of Pierre et Marie Curie, Paris, France | Applied Mathematics Ph.D, 2000
+
+| University of Pierre et Marie Curie, Paris, France | Applied Mathematics Habilitation, 2005 
+|=== 
+ 
+== SYNERGISTIC ACTIVITIES
+ 
+1.     Founder and Director of the Center of Modeling and Simulation in Strasbourg (creation on 01/2013, http://www.cemosis.fr ) hosting multi-disciplinary projects including Eye2Brain and with enterprises such as Airbus group or PlasticOmnium. 
+2.     Manager for the french agency of Mathematics in Interaction with Industry since 2012. Currently in charge of scientific and high performance computing at the national and european level.
+3.     Organizer and Co-Organizer of more than 15 workshops since 2006, co-organizer of the SMAI congress in 2007 and Co-Organizer (jointly with Y. Maday and F. Coquel) of the graduate summer school and research session CEMRACS from 1996 to 1999 in CIRM, Marseille, France.
+4.     Member of the Scientific Board of the Mathematics and their interaction Institute of CNRS from 2010 to 2014 and since 2013 of the Research Institute in Advanced Mathematics, Université de Strasbourg, France.
+5.     Served as referee for more than 10 international scientific journals, including Computer and Fluids, Computing and Visualisation in Sciences, M2AN, SIAM J of Scientific Computing, ACM TOMS, J. of numerical methods in fluids; national and international funding agencies including ANR and FNS(Swiss).

@@ -4,27 +4,30 @@ tags:
     - feelpp
     - jekyll
     - blog
+header:
+  image_fullwidth: header-bus.jpg
 ---
 = Feel++ has a new website
 :page-date: 2017-09-04
-:page-layout: page-fullwidth
+:page-layout: page
 :page-toc: false
 :page-title:  "Feel++ New Website"
 :page-header: no
 :page-subheadline:  "[www]"
-:page-teaser: "Feel++ allows you to solve a large range of partial differential equations. Here is one of the simplest"
+:page-teaser: "A new website to start the new academic year and for the FUD-5"
 :page-liquid:
 :feelpp: Feel++
 
 {feelpp} has yet again a new website.
 We had for a long time a jekyll (markdown) based website with news shared between link:http://www.cemosis.fr[Cemosis] and the link:http://csmi.eu[Master CSMI].
-We moved the latters to WordPress CMS 2 years ago and {feelpp} a few month ago.
+We moved Cemosis and CSMI to WordPress CMS 2 years ago and {feelpp} a few months ago.
 
-At the same time we moved our documentation system to Asciidoc using Asciidoctor tools to generated webpages on the link:http://book.feelpp.org[{feelpp} book].
+At the same time we moved our documentation system to Asciidoc using link:http://www.asciidoctor.org[Asciidoctor] tools to generated webpages on the link:http://book.feelpp.org[{feelpp} book].
 Asciidoc enables very powerful formatting including code and math.
-It is much more feature rich than markdown and asciidoctor has awesome developpment and support.
+It is much more feature rich than markdown and Asciidoctor has awesome developpment and support.
+All these reasons led us to move to jekyll-asciidoctor and the website is hosted on link:http://www.github.com/feelpp/www.feelpp.org[github].
 
-
+We hope you like this new site. We will have soon awesome content !
 
 == All website related articles
 ++++

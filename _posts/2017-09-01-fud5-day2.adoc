@@ -1,0 +1,41 @@
+---
+category: workshop
+tags:
+  - feelpp
+  - event
+  - fud
+header:
+  image_fullwidth: header_unsplash_workshop.jpg
+---
+= 5-th Feel++ Users Day 2
+:page-layout: page
+:page-date: 2017-09-12
+:page-author: prudhomm
+:page-title:  5th Feel++ User Day 2
+:page-subheadline:  "[fud-5]"
+:page-teaser: "The 5th Feel++ User Day 2 page"
+:page-liquid:
+:page-toc: true
+:toc:
+:feelpp: Feel++
+
+The first day is already over with an overview of {feelpp} changes
+over the past few months, the infrastructure supporting {feelpp} and a
+discussion on Best Practices.
+
+On Day 2, we start talks about research and collaboration projects.
+
+We start with our oldest partner the LNCMI with The _High Field Magnet_ project aka HiFiMagnet.
+Christophe Trophime (LNCMI) will present some recent results of our collaboration including first validations with experiments.
+He will also talk about the expectations about the EU E-INFRA H2020 link:http://mso4sc.eu[MSO4SC] project.
+
+Next we will have a talk from a CSMI Master Student Artemiy Dimov who will present his work on the collaboration project with the entreprise link:http://www.socomec.fr[Socomec].
+We are interested in simulating the heat transfer within an industrial interruptor. It includes heat transfer, electric potential and fluid mechanics.
+
+We then pursue with an opverview of the EU E-INFRA H2020 MSO4SC project and a presentation by Victor Sande Veiga from CESGA (Spain) regarding the cloud infrastructure of MSO4SC.
+
+In the afternoon we start with a talk on our collaboration with Plastic Omnium Automotive.
+
+Finally we have a tutorial on Salome and mesh generation by Christophe Trophime and Guillaume Dollé.
+
+The full programme and information about the workshop are link:/workshop/fud5[here].

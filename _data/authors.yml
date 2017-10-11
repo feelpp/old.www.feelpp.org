@@ -23,3 +23,26 @@ mszopos:
   siterole: "author"
   uri: http://www-irma.u-strasbg.fr/~szopos/
   email: mszopos@math.unistra.fr
+
+gdolle:
+  name: "Guillaume Dollé"
+  siterole: "author, developer, designer"
+  uri: pro.gdolle.com
+  email: gdolle@unistra.fr
+  twitter: gdolle42
+
+boileaum:
+  name: "Matthieu Boileau"
+  siterole: "Author"
+  email: matthieu.boileau@math.unistra.fr
+
+ricka:
+  name: "Philippe Ricka"
+  siterole: "author"
+  email: pricka@math.unistra.fr
+
+lsala:
+  name: "Lorenzo Sala"
+  siterole: "Author"
+  uri: http://www-irma.u-strasbg.fr/~sala/
+  email: sala@math.unistra.fr
