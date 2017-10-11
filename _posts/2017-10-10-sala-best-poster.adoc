@@ -18,7 +18,7 @@ header:
 :page-author: prudhomm
 :page-title:  Best poster award for Lorenzo Sala
 :page-subheadline:  "[cemosis2017]"
-:page-teaser: "Lorenzo Sala and the Eye2Brain project get the votes of the jury of the Doctorate School"
+:page-teaser: "Lorenzo Sala and the Eye2Brain project get the votes of the jury of the Doctorate School in Mathematics, Engineering and Computer Science"
 :page-liquid:
 
 Lorenzo Sala is a Ph. D. candidate working in the Eye2brain project under the supervision of G. Guidoboni (U. Missouri, USA), M. Szopos (Cemosis,Unistra) and C. Prud'homme (Cemosis,Unistra). He was awarded the best poster prize from the Doctorate school MSII on Monday, October the 2nd.
