@@ -1,0 +1,3 @@
+logo_polimi.png filter=lfs diff=lfs merge=lfs -text
+logoIUPUI.png filter=lfs diff=lfs merge=lfs -text
+logo_mizzou.png filter=lfs diff=lfs merge=lfs -text
