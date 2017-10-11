@@ -1,13 +1,13 @@
 Timeline,9/14/2017,Title 
 9:00-9:20,"Gauthier Follain
-(Unistra)",Data processing and visualisation in Biology. Tools and processes
+(Unistra)",link:pdfs/gautier_follain_slides_fud5.pdf[Data processing and visualisation in Biology. Tools and processes]
 9:20-10:05,"Jacky Goetz
 (Inserm)",Blood flow forces metastatic extravasation.
 ,,
-10:05-10:25,Vincent Chabannes (Cemosis),Hemotum++: models and results
+10:05-10:25,Vincent Chabannes (Cemosis),link:pdfs/chabannes_hemotum.pdf[Hemotum++: models and results]
 10:25-10:40,Break,
-10:40-11:40,Thibaut Metivet (IRMA/Cemosis/ Liphy),"Levelset methods for suspensions.
-Modelling red blood cells in flow."
+10:40-11:20,Thibaut Metivet (IRMA/Cemosis/ Liphy),link:pdfs/metivet_lsmathframework.pdf[Levelset methods for suspensions.Modelling red blood cells in flow]
+11:20-11:40,Thibaut Metivet (IRMA/Cemosis/ Liphy),link:pdfs/metivet_lscompframework.pdf[Levelset frmework in Feel++]
 ,,
 11:40-12:20,"Marcela Szopos (UdS/IRMA, CeMoSiS)","Multiscale mathematical and computational models for biofluids. Applications to the Eye2Brain project"
 12:20-14:15,Lunch break,

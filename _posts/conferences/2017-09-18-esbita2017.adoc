@@ -3,6 +3,7 @@ category: conference
 tags:
   - feelpp
   - event
+  - eye2brain
   - ocular virtual simulator
   - HDG
   - multiphysics
